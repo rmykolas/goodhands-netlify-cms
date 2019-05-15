@@ -1,0 +1,692 @@
+.hero {
+	
+	h1 {
+		@include fluid-props(font-size, $xs, $lg, 24px, 36px);
+		max-width: 1024px;
+	    line-height: 1.5;
+        margin-bottom: 0;
+
+        @media (min-width: 1600px) {
+        	text-align: center;
+        }
+	}
+
+	.col-8 {
+		@media (min-width: 1600px) {
+        	display: flex;
+        	justify-content: center;
+        }
+	}
+
+	&--solutions {
+		position: relative;
+
+		h1 {
+			font-family: 'GT America Medium';
+			margin-bottom: 0;
+			color: #fff;
+			text-transform: uppercase;
+			line-height: 48px;
+			font-size: 15px;
+			text-align: center;
+
+			@media (min-width: 321px) {
+				font-size: 18px;
+			}
+
+			@media (min-width: 414px) {
+				font-size: 20px;
+			}
+
+			@include media-breakpoint-up(sm) {
+				font-size: 24px;
+			}
+		}
+	}
+
+	&--about {
+	    height: 700px;
+	    position: relative;
+
+	    .container {
+	    	max-width: 1500px !important;
+
+	    	@media (max-width: 767px) {
+	    		padding-left: 0 !important;
+	    		padding-right: 0 !important;
+	    	}
+	    }
+
+		img {
+			object-fit: cover;
+			position: absolute;
+			border: 1px solid #fff;
+
+			&.img-1 {
+				z-index: 2 !important;
+				top: 0px;
+				z-index: 0;
+
+				@media (max-width: 767px) {
+		    		width: 100%;
+		    	}
+
+		    	@media (min-width: 768px) {
+		    		width: 522px;
+		    		left: 15%;
+		    	}
+
+		    	@media (min-width: 1280px) {
+		    		width: 504px;
+		    		left: 30%;
+		    	}
+			}
+
+			&.img-2 {
+				z-index: 2;
+				width: 192px;
+		    	left: 5%;
+    			top: 15%;
+			}
+
+			&.img-3 {
+				top: 40%;
+				left: 11%;
+				z-index: 3;
+				width: 250px;
+				height: 280px;
+
+				@media (max-width: 1279px) {
+			    	left: 2%;
+				}
+
+				@media (max-width: 767px) {
+					display: none;
+				}
+
+				@media (min-width: $xl + 1px) {
+					left: 10%;
+				}
+			}
+
+			&.img-4 {
+				top: 50%;
+				z-index: 3;
+				width: 254px;
+			    right: 17%;
+    			top: 50%;
+
+				@media (min-width: 1280px) {
+		    		width: 192px;
+		    	}
+
+		    	@media (max-width: 1279px) {
+	    		    right: 10%;
+    				top: 10%;
+		    	}
+
+		    	@media (min-width: 768px) and (max-width: 1100px) {
+		    		right: 5%;
+		    	}
+
+		    	@media (max-width: 767px) {
+					display: none;
+				}
+			}
+
+			&.img-5 {
+				top: 10%;
+				z-index: 1;
+				width: 374px;
+				right: 5%;
+
+				@media (max-width: 1279px) {
+					display: none;
+				}
+
+				@media (min-width: $xl + 1px) {
+					right: 10%;
+				}
+			}
+		}
+
+		h1 {
+		    position: absolute;
+		    top: 50%;
+		    transform: translateY(-50%);
+		    left: 0;
+		    right: 0;
+		    margin-left: auto;
+		    margin-right: auto;
+		    color: #fff;
+		    display: block;
+		    text-align: center;
+		    z-index: 99999;
+		}
+	}
+
+	&--work {
+		@media (min-width: 1600px) {
+			min-height: 100vh;
+		}
+	}
+}
+
+.good-reads-hero {
+	position: relative;
+	border-bottom: 1px solid #1B1B1C;
+
+	&__image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 45%;
+		height: 100%;
+		object-fit: cover;
+		display: none;
+
+		@include media-breakpoint-up(md) {
+			display: block;
+		}
+	}
+}
+
+.good-reads-post-grid {
+	.col {
+		flex: 0 100%;
+		@extend .margin-bottom-2;
+
+		@include media-breakpoint-up(md) {
+			flex: 0 50%;
+		}
+
+		@include media-breakpoint-up(lg) {
+			flex: 0 33.33333333333333%;
+		}
+	}
+
+	.col-8, .col {
+		figure {
+			position: relative;
+			@extend .margin-bottom-1;
+			@extend .padding-bottom-9;
+		}
+
+		h1 {
+	    	padding: 24px 0;
+		}
+	}
+
+	&--related {
+		border-top: 1px solid #1b1b1c;
+	}
+}
+
+.good-reads-post {
+	p {
+		@extend .padding-bottom-1;
+	}
+
+	figure {
+		margin: 0;
+		@extend .padding-bottom-1;
+
+		figcaption {
+			@extend .padding-top-1;
+			@extend .text--16;
+		}
+	}
+
+	h1 {
+		@extend .padding-y-1;
+		@extend .text--medium;
+		@extend .text--38;
+	}
+
+	h3 {
+		@extend .text--medium;
+		@extend .text--24;
+	}
+
+	a {
+		@extend .text--underline;
+	}
+
+	blockquote {
+		text-align: center;
+
+		p {
+
+			&:first-child {
+				@extend .text--40;
+			}
+
+			&:last-child {
+				@extend .text--uppercase;
+				@extend .text--16;
+			}
+		}
+	}
+}
+
+.three-col {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+
+	@include media-breakpoint-up(md) {
+		flex-direction: row;
+		min-height: 672px;
+	}
+
+	@media (min-width: 1920px) {
+		min-height: 1200px;
+	}
+
+	&__big-col {
+	    flex: 0 100%;
+		position: relative;
+		display: flex;
+    	align-items: center;
+
+		@include media-breakpoint-up(md) {
+			flex: 0 61.5%;
+		}
+	}
+
+	&__two-col {
+	    flex: 1;
+	    position: relative;
+	    display: flex;
+	    flex-direction: column;
+
+	    @include media-breakpoint-up(sm) {
+        	flex-direction: row;
+        }
+
+	    @include media-breakpoint-up(md) {
+	    	flex-direction: column;
+	    }
+	}
+
+	&__half-image {
+		position: relative;
+		flex: 0 100%;
+
+		@include media-breakpoint-up(sm) {
+			flex: 0 40%;
+		}
+
+		@include media-breakpoint-up(md) {
+			flex: 0 50%;
+		}
+	}
+
+	&__half-col {
+	    flex: 1;
+	    display: block;
+
+		div {
+		    height: 100%;
+			justify-content: center;
+		    display: flex;
+		    flex-direction: column;
+		}
+	}
+
+	&__desc-only {
+	    justify-content: flex-end;
+	    display: flex;
+	    flex-direction: column;
+	}
+
+	&__desc {
+		@media (min-width: $sm) and (max-width: 991px) {
+			flex: 1;
+		}
+	}
+}
+
+.two-col {
+	color: #fff;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+
+	&__show {
+
+		@include media-breakpoint-up(md) {
+			padding-right: 12.5%;
+			border-right: 1px solid #fff;
+		}
+
+		a {
+			display: block;
+
+			@include media-breakpoint-up(sm) {
+				display: inline-block;
+
+				& + a {
+					margin-left: 100px;
+				}
+			}
+		}
+
+		p {
+			padding: 18px 0;
+		}
+	}
+
+	&__contact {
+		display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+
+		@include media-breakpoint-up(sm) {
+	    	flex-direction: row;
+	    }
+
+	    @include media-breakpoint-up(md) {
+			flex-direction: column;
+			padding: 0 20px;
+			border-top: 0;
+		}
+
+		@include media-breakpoint-up(lg) {
+			padding: 0 40px;
+		}
+
+		div {
+			@include media-breakpoint-down(sm) {
+				flex: 1;
+			}
+			
+			&:first-child {
+				@media (min-width: 768px) and (max-width: 991px) {
+			    	margin-right: 46px;
+				}
+			}
+		}
+	}
+
+	&.grain--light {
+		border-top: 1px solid #1B1B1C;
+		border-bottom: 0;
+		color: #1B1B1C;
+
+		.two-col__show {
+		    padding: 0 32px;
+
+			@include media-breakpoint-up(md) {
+				padding: 0 80px;
+				border-right: 1px solid #1B1B1C;
+			}
+
+			a {
+				display: inline-block;
+			}
+		}
+	}
+
+	&--wide {
+		.container {
+			@include media-breakpoint-down(md) {
+				padding-right: 0 !important;
+				padding-left: 0 !important;
+			}
+		}
+
+		.row {
+			margin-right: 0 !important;
+			margin-left: 0 !important;
+		}
+
+		.two-col {
+
+			&__contact {
+				border-top: 1px solid #fff;
+				padding: 0 32px;
+
+				@include media-breakpoint-up(md) {
+					border-top: 0;
+				}
+
+				@include media-breakpoint-up(lg) {
+					padding: 0 40px;
+				}
+			}
+		}
+		
+		&.grain--light {
+			.two-col {
+				&__contact {
+					border-top: 1px solid #1b1b1c;
+
+					@include media-breakpoint-up(md) {
+						border-top: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+.credits {
+	&__list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+
+		li {
+			@extend .text--24;
+			display: flex;
+			justify-content: space-between;
+			border-bottom: 1px solid #fff;
+
+			&:last-child {
+				border-bottom: 0;
+			}
+			
+			@include media-breakpoint-up(sm) {
+			    padding-top: 48px !important;
+    			padding-bottom: 48px !important;
+			}
+
+			p {
+				font-size: 12px;
+				line-height: 48px;
+
+				@include media-breakpoint-up(sm) {
+					font-size: 24px;
+				}
+			}
+		}
+	}
+}
+
+.results {
+	.col {
+		@include media-breakpoint-down(xs) {
+		    flex: 0 100%;
+		}
+	}
+}
+
+.all-access {
+	&__hero {
+		img {
+			z-index: -1;
+		}
+	}
+
+	&__half-hero {
+		background-color: #0C0C0C;
+
+		.img-absolute {
+			z-index: 0;
+		}
+
+		.container {
+			background: rgba(0,0,0,0.6);
+			z-index: 1;
+		}
+
+		.col {
+			flex: 0 100%;
+
+			@include media-breakpoint-up(lg) {
+				flex: 0 50%;
+			}
+		}
+
+		.links {
+			width: 100%;
+			
+			@include media-breakpoint-up(xl) {
+				width: 90%;
+			}
+		}
+
+		.flash {
+			&:after {
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				animation: flash 0.5s;
+				animation-delay: 1s;
+				background: #fff;
+				opacity: 0;
+			}
+
+			&__polaroid {
+				overflow: hidden;
+				z-index: 1;
+
+				img {
+					transform: translateY(-100%);
+					transition: 2s 1.5s;
+				}
+			}
+
+			&__view-gallery {
+				opacity: 0;
+				visibility: hidden;
+				transition: 0.25s 3s;
+				z-index: 1;
+			}
+		}
+	}
+
+	&__description {
+		background: rgba(0,0,0,0.6);
+
+		p {
+		    max-width: 500px;
+		    margin: 0 auto;
+		}
+	}
+
+	&__socials {
+		a {
+			margin-right: 18px;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+	&__gallery-desc {
+	    position: absolute;
+	    background: rgba(0, 0, 0, 0.6);
+	    height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+	    text-align: center;
+	    color: #fff;
+        @include fluid-props(padding, $xs, $lg, 24px, 48px);
+
+        @include media-breakpoint-up(sm) {
+        	left: 8px;
+        	width: calc(100% - 16px);
+        }
+
+        p {
+        	&:nth-child(2) {
+        		line-height: 1.75;
+        	}
+        }
+	}
+}
+
+.loaded {
+	.all-access__half-hero {
+		.flash {
+			&__polaroid {
+				img {
+					transform: translateY(0);
+				}
+			}
+
+			&__view-gallery {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+}
+
+.all-access-galleries {
+	.col {
+		flex: 0 100%;
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			flex: 0 50%;
+		}
+
+		@media (min-width: 992px) {
+			flex: 0 33.333333333333%;
+		}
+	}
+}
+
+.work-grid {
+
+	.col {
+		flex: 0 100%;
+		width: 100%;
+
+	    @include media-breakpoint-up(sm) {
+	    	flex: 0 33.333333333333%;
+    	    width: 33.333333333333%;
+	    }
+
+	    @include media-breakpoint-up(lg) {
+	    	flex: 0 25%;
+    	    width: 25%;
+	    }
+
+	    a {
+	    	padding-bottom: 56.25%;
+	    }
+	}
+}
+
+.thank-you {
+	height: 100vh
+}
+
+.client-logos {
+	.col {
+		@media (max-width: 991px) {
+			flex: 0 50%;
+		}
+
+		@media (min-width: 992px) and (max-width: 1279px) {
+			flex: 0 33.333333333%;
+		}
+	}
+}

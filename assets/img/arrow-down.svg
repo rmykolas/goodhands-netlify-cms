@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="27px" viewBox="0 0 16 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="navigation-/-dark-/-1280px" transform="translate(-32.000000, -667.000000)" stroke="#FF4000" stroke-width="2.5">
+            <g id="navigation-/-orange">
+                <g id="Group-4" transform="translate(16.000000, 656.000000)">
+                    <g id="Group-3" transform="translate(17.857143, 12.214286)">
+                        <path d="M17.8571429,11.5 L-5,11.5" id="Path" stroke-linejoin="round" transform="translate(6.428571, 11.500000) rotate(-450.000000) translate(-6.428571, -11.500000) "></path>
+                        <polyline id="Path" transform="translate(6.428571, 20.357143) rotate(-450.000000) translate(-6.428571, -20.357143) " points="9.57142857 26.3571429 3.28571429 20.3571429 9.57142857 14.3571429"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

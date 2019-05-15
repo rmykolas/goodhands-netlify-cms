@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="20px" viewBox="0 0 26 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>icon-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solutions-for-Artists-(1280px)" transform="translate(-1115.000000, -6734.000000)">
+            <g id="Call-To-Action" transform="translate(0.000000, 6576.000000)">
+                <g id="link-get-started" transform="translate(802.000000, 96.000000)">
+                    <g id="icon-arrow" transform="translate(302.000000, 48.000000)">
+                        <rect id="Rectangle" x="0" y="0" width="48" height="48"></rect>
+                        <g transform="translate(12.000000, 15.000000)" id="Path" stroke="#FFFFFF" stroke-linecap="square" stroke-width="1.5">
+                            <path d="M22.9138314,10.4857143 L6.30237039e-12,10.4857143" stroke-linejoin="round" transform="translate(11.500000, 9.800000) rotate(-180.000000) translate(-11.500000, -9.800000) "></path>
+                            <polyline transform="translate(20.000000, 9.000000) rotate(-180.000000) translate(-20.000000, -9.000000) " points="24 18 16 9 24 0"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Good-Reads-(1280px)" transform="translate(-632.000000, -2784.000000)">
+            <g id="Group-2" transform="translate(632.000000, 2784.000000)">
+                <rect id="Rectangle" fill="#000000" x="0" y="0" width="48" height="48"></rect>
+                <g id="Group-9" transform="translate(11.000000, 15.000000)">
+                    <g id="right" transform="translate(5.995392, 0.000000)">
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="2.07066052" cy="3.32709503" rx="2.04813108" ry="3.32709503"></ellipse>
+                        <path d="M15.6702509,11.3953005 C16.0528943,12.9031398 17.4143855,13.9398647 18.9472606,13.8906218" id="Path" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round"></path>
+                    </g>
+                    <g id="right-link" transform="translate(10.467742, 7.000000) scale(-1, 1) translate(-10.467742, -7.000000) translate(0.967742, 0.000000)">
+                        <g id="right">
+                            <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="2.07066052" cy="3.32709503" rx="2.04813108" ry="3.32709503"></ellipse>
+                            <path d="M15.6702509,11.3953005 C16.0528943,12.9031398 17.4143855,13.9398647 18.9472606,13.8906218" id="Path" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                    <path d="M3.15053763,13.3083801 C5.04738684,17.0450593 8.84108525,19.3930893 12.9815668,19.3930893 C17.1220484,19.3930893 20.9157468,17.0450593 22.812596,13.3083801 C21.1589315,17.3378334 17.2810946,19.9625702 12.9815668,19.9625702 C8.68203908,19.9625702 4.80420215,17.3378334 3.15053763,13.3083801" id="Path" stroke="#FFFFFF" stroke-width="0.614439324"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

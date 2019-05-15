@@ -1,0 +1,32 @@
+.solutions {
+	&__grid {
+		[class*="col-"] {
+			overflow: hidden;
+			a {
+			    height: 100%;
+
+			    p {
+			    	transition: transform 1.2s 0s !important;
+			    }
+
+			    &:hover {
+			    	p {
+			    		transform: scale(1.05) !important;
+			    	}
+			    }
+			}
+
+			p {
+				font-family: 'GT America Medium';
+			    display: block;
+			    text-align: center;
+			    font-size: 20px;
+			    color: #fff;
+			    text-transform: uppercase;
+			    margin-bottom: 0;
+		        line-height: 2;
+	            z-index: 1;
+			}
+		}
+	}
+}

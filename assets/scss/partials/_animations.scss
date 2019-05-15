@@ -1,0 +1,71 @@
+.grain {
+	overflow: hidden;
+	transform: translate3d(0,0,0);
+
+	&:after {
+		content: "";
+		background-image: url("../img/grain-bg.png");
+		animation: grain 8s steps(10) infinite;
+		height: 100%;
+		left: -150%;
+		position: fixed;
+		top: 0;
+		width: 300%;
+		z-index: -99999999;
+
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      display: none !important;
+    }
+	}
+
+	&--dark {
+		@extend .grain;
+		background-color: #181818;
+	}
+
+	&--light {
+		@extend .grain;
+		background-color: #F5F5F5;
+	}
+}
+
+@keyframes grain {
+  0%, 100% { transform:translateX(0) }
+  10% { transform:translateX(-5%) }
+  20% { transform:translateX(-15%) }
+  30% { transform:translateX(7%) }
+  40% { transform:translateX(-5%) }
+  50% { transform:translateX(-15%,) }
+  60% { transform:translateX(15%) }
+  70% { transform:translateX(0%) }
+  80% { transform:translateX(3%) }
+  90% { transform:translateX(-10%) }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes flash {
+ 0%, 100% { opacity: 0; }
+ 50% { opacity: 1; }
+}

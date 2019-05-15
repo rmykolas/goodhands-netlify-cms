@@ -1,0 +1,225 @@
+.header {
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s 1s;
+
+	a {
+		color: #1b1b1c;
+		letter-spacing: 0.8px;
+		font-size: 16px;
+		transition: 0.3s 0.3s;
+	}
+
+	&__home-link {
+		@include media-breakpoint-up(sm) {
+			transform: rotate(-90deg);
+		    position: absolute;
+	        top: 51px;
+		    left: -35px;
+		    transition: 0.8s !important;
+
+		    &:hover {
+				transform: rotate(-90deg) scale(1.05);
+			}
+		}
+
+		@media (max-width: 767px) {
+			&.blur {
+			    filter: blur(0) grayscale(0) !important;
+			}
+		}
+
+		&.active {
+			color: #1b1b1c !important; 
+		}
+	}
+
+	&__cta {
+		opacity: 0;
+		visibility: hidden;
+		cursor: pointer;
+
+		@media (max-width: 767px) {
+			display: none;
+		}
+
+		&.active {
+			@include media-breakpoint-up(sm) {
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+
+	&__menu-trigger {
+		width: 24px;
+		height: 12px;
+		position: relative;
+		cursor: pointer;
+		display: inline-block;
+		vertical-align: top;
+	    margin-left: 36px;
+
+		.line {
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			border: thin solid #000;
+			transition: all 0.3s 0.3s, transform 0.3s 0s;
+
+			&--2 {
+				top: 100%;
+			} 
+		}
+
+		&.active {
+			.line {
+				top: 50%;
+				transition: all 0.3s 0.3s, transform 0.3s 0s;
+				border-color: #000 !important;
+
+				&--1 {
+					transform: rotate(45deg);
+					transition: all 0.3s, transform 0.3s 0.3s;
+				}
+
+				&--2 {
+			      	transform: rotate(-45deg);
+			      	transition: all 0.3s, transform 0.3s 0.3s;  
+				}
+			}
+		}
+	}
+
+	&.dark {
+		a {
+			transition: 0.3s 0.3s;
+			color: #fff;
+
+			&:hover {
+				color: #fff;
+			}
+		}
+
+		.line {
+			border-color: #fff;
+		}
+	}
+}
+
+.loaded {
+	.header {
+		opacity: 1;
+    	visibility: visible;
+	}
+}
+
+.menu {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+	transform: translateX(150%);
+	transition: 0.3s;
+	z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+
+    /* Allows content to fill the viewport and go beyond the bottom */
+	height: 100%;
+	 
+	/* Allows you to scroll below the viewport; default value is visible */
+	overflow-y: scroll;
+	 
+	/* To smooth any scrolling behavior */
+	-webkit-overflow-scrolling: touch;
+
+	@media (min-width: $sm) {
+		width: 300px;
+	}
+
+	&.active {
+		transform: translateX(0);
+	}
+
+	&__content {
+		padding-top: 100px;
+		padding-left: 32px;
+		padding-right: 32px;
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+			
+			li {
+				text-transform: uppercase;
+				font-family: 'GT America Medium';
+				line-height: 1.2;
+				color: #000;
+				font-size: 20px;
+				margin-bottom: 10px;
+
+				&:first-child {
+					font-size: 14px;
+					line-height: 1.14;
+  					letter-spacing: 0.4px;
+				}
+			}
+
+			& + ul {
+				margin-top: 30px;
+			}
+		}
+
+		.header__menu-trigger {
+		    position: absolute;
+		    top: 33px;
+		    right: 32px;
+		}
+	}
+
+	&__footer {
+		text-align: center;
+    	display: flex;
+    	flex-direction: column;
+	}
+
+	&__footer-content {
+		background: #000;
+		color: #fff;
+		padding: 20px 0;
+		margin-top: 30px;
+
+		img {
+			height: 14px;
+			width: auto;
+		}
+
+		a {
+			margin-right: 10px;
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+
+		p {
+			opacity: 0.5;
+			font-size: 12px;
+			line-height: 1.33;
+			margin-top: 15px;
+		}
+	}
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="67px" viewBox="0 0 67 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-7.8%" y="-14.9%" width="115.5%" height="129.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="Free-Brand-Review-(1280px)" transform="translate(-1095.000000, -88.000000)" fill-rule="nonzero" stroke="#1B1B1C">
+            <g id="Group-2" filter="url(#filter-1)" transform="translate(128.000000, 96.000000)">
+                <g id="Group-3" transform="translate(990.838835, 15.000000)">
+                    <path d="M-3,9.5 L21,9.5" id="Line" transform="translate(9.000000, 9.500000) rotate(-315.000000) translate(-9.000000, -9.500000) "></path>
+                    <path d="M-3,9.5 L21,9.5" id="Line" transform="translate(9.000000, 9.500000) rotate(-225.000000) translate(-9.000000, -9.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
