@@ -9,5 +9,6 @@ heading: >-
 services:
   - image: /img/uploads/home-music-artists-1280px.jpg
     name: For Music Artists
+    url: /artists
 ---
 
