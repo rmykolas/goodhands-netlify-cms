@@ -1,0 +1,52 @@
+{% include meta.html %}
+
+<header class="header {{ page.body }}">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-4">
+        <a href="/" class="header__home-link text--medium">GOOD HANDS</a>
+      </div>
+      <div class="col-4 d-flex align-items-center justify-content-end">
+        <a class="header__cta text--cta active{% if page.nocta == 'yes' %} hidden{% endif %}"{% if page.layout contains "all-access" %} href="/contact"{% else %} data-form="brand-review"{% endif %}><span>{% if page.layout contains "all-access" %}Connect With Us{% else %}Free Brand Review{% endif %}</span></a>
+        <div class="header__menu-trigger">
+          <span class="line line--1"></span>
+          <span class="line line--2"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="menu">
+  <main class="menu__content">
+    <ul>
+      <li>Services</li>
+      <li><a href="/services/music-artists">For Music Artists</a></li>
+      <li><a href="/services/startups">For Startups</a></li>
+      <li><a href="/services/companies">For Companies</a></li>
+      <li><a href="/services/agencies">For Agencies</a></li>
+    </ul>
+    <ul>
+      <li>Company</li>
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/work">Our Work</a></li>
+      <!--<li><a href="all-access.html">All Access</a></li>-->
+      <li><a href="/contact">Contact Us</a></li>
+    </ul>
+  </main>
+  <div class="menu__footer padding-top-1">
+    <a class="text--cta{% if page.nocta == 'yes' %} hidden{% endif %}" data-form="brand-review"><span>Free Brand Review</span></a>
+    <div class="menu__footer-content">
+      <a target="_blank" href="https://www.instagram.com/goodhandsdotco/"><img src="/assets/img/icon--instagram.svg" class="svg"></a>
+      <a target="_blank" href="https://twitter.com/goodhandsdotco/"><img src="/assets/img/icon--twitter.svg" class="svg"></a>
+      <a target="_blank" href="https://www.linkedin.com/company/goodhandsdotco/"><img src="/assets/img/icon--linkedin.svg" class="svg"></a>
+      <a target="_blank" href="http://vimeo.com/goodhandsdotco"><img src="/assets/img/icon--vimeo.svg" class="svg"></a>
+      <a target="_blank" href="https://www.facebook.com/goodhandsdotco/"><img src="/assets/img/icon--facebook.svg" class="svg"></a>
+      <a target="_blank" href="https://dribbble.com/goodhandsdotco/"><img src="/assets/img/icon--dribbble.svg" class="svg"></a>
+      <a target="_blank" href="https://open.spotify.com/user/dv8uk8ek9aex8ygo87fdo5chf?si=ebRPgTmOR_iBxjyFcY4Ifw"><img src="/assets/img/icon--spotify.svg" class="svg"></a>
+      <p class="text--uppercase text--medium">©2019 GOOD HANDS.</p>
+    </div>
+  </div>
+</div>
+
+<main class="site-content">
