@@ -68,7 +68,7 @@ collections:
     name: "services"
     folder: "_services"
     create: true
-    slug: "{{fields.slug}}"
+    slug: "{{fields.seo_url}}"
     editor:
       preview: false
     fields:
