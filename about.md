@@ -4,7 +4,7 @@ title: About Us | GOOD HANDS | Creative Agency
 description: >-
   GOOD HANDS is a creative agency offering branding, web design, and film
   production to emerging music artists, startups, and companies.
-suprise_me_url: /work/music-artists/chance-the-rapper-branding-product-web-design/
+surprise_me_url: /work/music-artists/chance-the-rapper-branding-product-web-design/
 hero_heading: OUR STUDIO
 client_section_heading: WHAT WE DO
 client_section_text: >-
