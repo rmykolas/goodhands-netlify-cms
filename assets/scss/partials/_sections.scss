@@ -325,13 +325,9 @@
 	&__half-col {
 	    flex: 1;
 	    display: block;
-
-		div {
-		    height: 100%;
-			justify-content: center;
-		    display: flex;
-		    flex-direction: column;
-		}
+	    justify-content: center;
+	    display: flex;
+	    flex-direction: column;
 	}
 
 	&__desc-only {
