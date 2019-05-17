@@ -26,6 +26,5 @@ sections:
     large_image_position: right
     large_mobile_image: /img/uploads/agencies-services-strategy-lg-360px.jpg
     large_tablet_image: /img/uploads/agencies-services-strategy-lg-768px.jpg
-    small_image_position: top
 ---
 
