@@ -34,7 +34,7 @@
 {% endif %}
 
 <section class="three-col">
-  <div class="three-col__big-col{% if service.large_image_position == 'left' %} order-2 order-sm-1{% else %} order-1 order-sm-2{% endif %}">
+  <div class="three-col__big-col{% if service.large_image_position == 'left' %} order-2 order-sm-1{% else %} order-1 order-sm-2{% endif %}{% if service.large_content_background == 'dark' %} grain--dark text-white{% else %} grain--light{% endif %}">
     {% if service.large_desktop_image %}
       <div class="padding-y-7 image image--second">
         <picture>
@@ -45,6 +45,10 @@
         {% if service.video_link %}
           <a href="{{ service.video_link }}" class="video-trigger"><img src="/assets/img/icon--play.svg" class="svg"></a>
         {% endif %}
+      </div>
+    {% elsif service.large_content %}
+      <div class="padding-y-2 padding-y-md-3 container container--pr">
+        <p class="text--40 padding-right-md-1" data-jarallax-element="-50">{{ service.large_content }}</p>
       </div>
     {% endif %}
   </div>

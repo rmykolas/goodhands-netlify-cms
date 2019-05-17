@@ -95,6 +95,8 @@ collections:
           - {label: Large Desktop Image, name: large_desktop_image, widget: image}
           - {label: Large Tablet Image, name: large_tablet_image, widget: image}
           - {label: Large Mobile Image, name: large_mobile_image, widget: image}
+          - {label: Large Content, name: large_content, widget: text}
+          - {label: Large Content Background, name: background, widget: select, options: ["light", "dark"]}
           - {label: Small Image Position, name: small_image_position, widget: select, options: ["top", "bottom"], , required: false}
           - {label: Small Desktop Image, name: small_desktop_image, widget: image, required: false}
           - {label: Small Tablet Image, name: small_tablet_image, widget: image, required: false}
