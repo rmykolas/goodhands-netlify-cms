@@ -34,7 +34,7 @@
 {% endif %}
 
 <section class="three-col">
-  <div class="three-col__big-col{% if service.large_image_position == 'left' %} order-2 order-sm-1{% else %} order-1 order-sm-2{% endif %}{% if service.large_content_background == 'dark' %} grain--dark text-white{% else %} grain--light{% endif %}">
+  <div class="three-col__big-col{% if service.large_block_position == 'left' %} order-2 order-sm-1{% else %} order-1 order-sm-2{% endif %}{% if service.large_content_background == 'dark' %} grain--dark text-white{% else %} grain--light{% endif %}">
     {% if service.large_desktop_image %}
       <div class="padding-y-7 image image--second">
         <picture>
@@ -53,7 +53,7 @@
     {% endif %}
   </div>
 
-  <div class="three-col__two-col{% if service.large_image_position == 'left' %} order-1 order-sm-2{% else %} order-2 order-sm-1{% endif %}">
+  <div class="three-col__two-col{% if service.large_block_position == 'left' %} order-1 order-sm-2{% else %} order-2 order-sm-1{% endif %}">
     <div class="three-col__half-image{% if service.small_image_position == 'top' %} order-2 order-sm-1{% else %} order-2{% endif %}{% if service.small_desktop_image %} padding-top-8 padding-top-sm-7 padding-top-md-0{% else %} container padding-top-1 padding-bottom-4 d-none d-sm-block d-md-none{% endif %}{% if service.background == 'dark' %} grain--dark text-white{% else %} grain--light{% endif %}">
       {% if service.small_desktop_image %}
         <div class="image">
