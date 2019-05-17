@@ -1,0 +1,45 @@
+{% include header.html %}
+
+<section class="contact-form grain--dark">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-8 col-md-4 text-center text-white d-flex flex-column justify-content-center">
+				<h1 class="text--medium text--24 text--uppercase padding-bottom-sm-1">Contact</h1>
+				<form class="validate-this padding-bottom-1" id="contact" name="Contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="d-flex flex-column justify-content-center padding-bottom-sm-1" action="/thank-you.html">
+					<input class="d-none" name="bot-field" />
+					<div class="input-wrap">
+						<input class="contact name" type="text" name="name" placeholder="First + Last Name" required>
+						<div class="input-wrap__error"></div>
+					</div>
+					<div class="input-wrap">
+						<input class="contact email" type="email" name="email" placeholder="Email" required>
+						<div class="input-wrap__error"></div>
+					</div>
+					<div class="input-wrap">
+						<input class="contact url" type="text" name="website" placeholder="Website/Instagram" required>
+						<div class="input-wrap__error"></div>
+					</div>
+					<textarea class="contact message" name="message" placeholder="How can we help you?" rows="8"></textarea>
+					<button class="contact submit form-submit" form="contact" type="submit">Submit</button>
+				</form>
+				<div class="flex-row justify-content-center contact-form__socials">
+					<a target="_blank" href="https://www.instagram.com/goodhandsdotco/"><img src="/assets/img/icon--instagram.svg" class="svg"></a>
+					<a target="_blank" href="https://twitter.com/goodhandsdotco/"><img src="/assets/img/icon--twitter.svg" class="svg"></a>
+					<a target="_blank" href="https://www.linkedin.com/company/goodhandsdotco/"><img src="/assets/img/icon--linkedin.svg" class="svg"></a>
+					<a target="_blank" href="http://vimeo.com/goodhandsdotco"><img src="/assets/img/icon--vimeo.svg" class="svg"></a>
+					<a target="_blank" href="https://www.facebook.com/goodhandsdotco/"><img src="/assets/img/icon--facebook.svg" class="svg"></a>
+					<a target="_blank" href="https://dribbble.com/goodhandsdotco/"><img src="/assets/img/icon--dribbble.svg" class="svg"></a>
+					<a target="_blank" href="https://open.spotify.com/user/dv8uk8ek9aex8ygo87fdo5chf?si=ebRPgTmOR_iBxjyFcY4Ifw"><img src="/assets/img/icon--spotify.svg" class="svg"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+</main>
+
+<div class="modal-form form" data-form="brand-review">
+	{% include brand-review.html %}
+</div>
+
+{% include scripts.html %}

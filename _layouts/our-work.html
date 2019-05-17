@@ -1,0 +1,65 @@
+{% include header.html %}
+
+<section class="padding-bottom-1 padding-bottom-md-2 padding-top-3 text-center bg--light">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-8 col-sm-6 offset-sm-1 col-md-4 offset-md-2">
+        <p class="text--uppercase text--medium text--24">Our Work</p>
+      </div>
+      <div class="work-filters__wrap col-8 col-lg-6 offset-lg-1 d-flex align-items-center justify-content-center flex-column flex-md-row">
+        <div class="work-filters w-75">
+          <a href="/contact" class="text--circled">
+            <object id="circle" type="image/svg+xml" data="/assets/img/circle.svg"></object>
+            <span>Work With Us</span>
+          </a>
+          <div>
+            <span class="text--uppercase showing">Show me:</span>
+            <a class="button button--category-toggle work-filter-toggle showing-what">Everything</a>
+          </div>
+        </div>
+        <div class="work-filters--responsive">
+          <a href="/contact" class="text--circled">
+            <object id="circle" type="image/svg+xml" data="/assets/img/circle.svg"></object>
+            <span>Work With Us</span>
+          </a>
+          <div class="pt-4">
+            <span class="text--uppercase">Showing:</span>
+            <a class="button button--category-toggle work-filter-toggle showing-what">Everything</a>
+          </div>
+        </div>
+        <div class="work-filters--expanded justify-content-between flex-column flex-sm-row">
+          <span class="text--uppercase d-none d-md-inline">Show me:</span>
+          <a class="button button--reset is-checked">Everything</a>
+          <button class="button" data-filter=".branding">Branding</button>
+          <button class="button" data-filter=".design">Design</button>
+          <button class="button" data-filter=".development">Development</button>
+          <button class="button" data-filter=".film">Film</button>
+          <button class="button" data-filter=".marketing">Marketing</button>
+          <button class="button" data-filter=".photography">Photography</button>
+          <button class="button" data-filter=".product">Product</button>
+          <a class="button--close-toggle work-filter-toggle"><img src="/assets/img/arrow-up.svg" class="svg"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="padding-bottom-1 bg--dark">
+  <div class="container container--small-fluid">
+    <div class="row position-relative work-grid">
+      {% assign sorted = site.work | sort: 'order' %}
+      {% for work in sorted %}
+        <div class="col {{ work.filters }}">
+          <a href="{{ work.url }}" class="d-block position-relative margin-bottom-1">
+            <picture>
+              <source media="(min-width: 1280px)" srcset="{{ work.thumbnail_large }}">
+              <source media="(min-width: 768px)" srcset="{{ work.thumbnail_medium }}">
+              <img src="{{ work.thumbnail_small }}" class="img-absolute">
+            </picture>
+          </a>
+        </div>
+      {% endfor %}
+  </div>
+</section>
+
+{% include footer.html %}

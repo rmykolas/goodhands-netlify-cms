@@ -1,0 +1,86 @@
+{% include header.html %}
+
+<section class="all-access__hero position-relative jarallax" data-jarallax data-speed="0">
+  <img src="{{ page.headshot }}" class="img-absolute jarallax-img">
+  <div class="container-fluid all-access__description padding-y-5 padding-top-sm-6 padding-bottom-sm-10 padding-y-md-6 text-center text-white">
+    <div data-aos="fade" data-aos-delay="500">
+      <p class="text--uppercase">All Access Creator</p>
+      <p class="text--24 text--uppercase">{{ page.name }}</p>
+    </div>
+    <div class="d-flex justify-content-center all-access__socials" data-aos="fade" data-aos-delay="500">
+      {% if page.instagram %}<a target="_blank" href="{{ page.instagram }}"><img src="/assets/img/icon--instagram.svg"></a>{% endif %}
+      {% if page.twitter %}<a target="_blank" href="{{ page.twitter }}"><img src="/assets/img/icon--twitter.svg"></a>{% endif %}
+      {% if page.medium %}<a target="_blank" href="{{ page.medium }}"><img src="/assets/img/icon--medium.svg"></a>{% endif %}
+      {% if page.vimeo %}<a target="_blank" href="{{ page.vimeo }}"><img src="/assets/img/icon--vimeo.svg"></a>{% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="two-col grain--dark">      
+  <div class="container">
+    <div class="row">
+      <div class="col-8 col-md-5 padding-y-2 two-col__show" data-aos="fade">
+        <h2 class="text--20 text--medium text--uppercase text--lh-48">About the Creator</h2>
+        <p class="text--20">{{ page.bio }}</p>
+      </div>
+      <div class="col-8 col-md-3 two-col__contact padding-bottom-2 padding-y-md-2">
+        <div class="padding-bottom-1 padding-bottom-sm-0 padding-bottom-md-1" data-aos="fade" data-aos-delay="100">
+          <p class="text--uppercase">Location</p>
+          <p class="text--24">{{ page.location }}</p>
+        </div>
+        <div data-aos="fade" data-aos-delay="200">
+          <p class="text--uppercase">ALL ACCESS Creator Since</p>
+          <p class="text--24">{{ page.since }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="all-access-galleries grain--dark padding-top-2 padding-bottom-1">
+  <div class="container container--small-fluid">
+    <div class="row no-gutters">
+      {% for gallery in page.galleries %}
+        <div class="col padding-bottom-1">
+          <div class="all-access__gallery padding-bottom-9 position-relative" data-aos="fade">
+            <a href="{{ gallery.url }}">
+              <img data-src="{{ gallery.hero }}" class="img-absolute img-grid lazy" data-proofer-ignore>
+              <div class="all-access__gallery-desc d-flex flex-column justify-content-between">
+                <p class="text--uppercase text--medium">{{ gallery.date_location }}</p>
+                <p class="text--uppercase text--medium">{{ gallery.title }}</p>
+                <p class="text--uppercase text--medium">Photos by {{ page.name }}</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="two-col two-col--wide grain--dark">      
+  <div class="container">
+    <div class="row">
+      <div class="col-8 col-md-5 padding-y-2 padding-y-md-3 text-center two-col__show">
+        <h1 class="text--32 text--uppercase mb-3">All Access by Good Hands</h1>
+        <a href="/contact" class="text--circled">
+          <object id="circle" type="image/svg+xml" data="/assets/img/circle-white.svg"></object>
+          <span class="mb-5 mb-sm-0">Connect With Us</span>
+        </a>
+        <a class="text--underline text--uppercase all-access-trigger d-inline-block link--underline">Join All Access</a>
+      </div>
+      <div class="col-8 col-md-3 two-col__contact padding-y-2">
+        <div class="padding-bottom-1">
+          <p class="text--uppercase">Explore</p>
+          <a target="_blank" href="https://www.instagram.com/explore/tags/allaccessbygh/" class="text--arrow text--24">#AllAccessbyGH</a>
+        </div>
+        <div>
+          <p class="text--uppercase">Press</p>
+          <a href="mailto:hello@goodhands.co" class="text--arrow text--24">hello@goodhands.co</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
+{% include footer.html %}

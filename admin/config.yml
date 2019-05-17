@@ -4,9 +4,14 @@ backend:
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
 
+display_url: https://goodhands.co
+site_url: https://goodhands-cms.netlify.com/
+
 collections:
   - label: "Pages"
     name: "pages"
+    editor:
+      preview: false
     files:
       - label: "Index Page"
         name: "index"
@@ -21,7 +26,9 @@ collections:
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
-              - {label: Image, name: image, widget: image}
+              - {label: Desktop Image, name: desktop_image, widget: image}
+              - {label: Tablet Image, name: tablet_image, widget: image}
+              - {label: Mobile Image, name: mobile_image, widget: image}
               - {label: URL, name: url, widget: string}
       - label: "About Page"
         name: "about"
@@ -29,6 +36,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
+          - {label: Layout, name: layout, widget: hidden, default: about-us}
           - label: Team
             name: team
             widget: list
