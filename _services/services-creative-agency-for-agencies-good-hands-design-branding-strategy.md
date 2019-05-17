@@ -4,6 +4,8 @@ title: 'Creative Agency for Agencies | GOOD HANDS | Design, Branding, Strategy'
 description: >-
   Our creative agency partners and collaborates with other creative agencies
   through design, film production, social growth, and digital marketing.
+slug: agencies
+surprise_me_url: /work/companies/yard-nyc-agency-web-development
 hero_heading: GOOD HANDS FOR AGENCIES
 hero_desktop_image: /img/uploads/agencies-services-hero-1280px.jpg
 hero_tablet_image: /img/uploads/agencies-services-hero-768px.jpg
