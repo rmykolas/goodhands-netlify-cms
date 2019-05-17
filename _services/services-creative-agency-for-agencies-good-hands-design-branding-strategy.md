@@ -16,5 +16,16 @@ intro: >-
   We collaborate with other creative agencies on upcoming projects to help
   support your growing client base or expand your reach. We can take on projects
   independently or work alongside your team.
+sections:
+  - background: dark
+    content: >-
+      ​​Market Research, Persona Development, Go-To-Market Planning, Content
+      Planning, Marketing Automation.
+    heading: STRATEGY
+    large_desktop_image: /img/uploads/agencies-services-strategy-lg-1280px.jpg
+    large_image_position: right
+    large_mobile_image: /img/uploads/agencies-services-strategy-lg-360px.jpg
+    large_tablet_image: /img/uploads/agencies-services-strategy-lg-768px.jpg
+    small_image_position: top
 ---
 
