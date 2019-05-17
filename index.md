@@ -7,6 +7,11 @@ heading: >-
   We are the creative powerhouse behind emerging artists, startups and
   companies.
 layout: homepage
-services: []
+services:
+  - desktop_image: /img/uploads/home-music-artists-1280px.jpg
+    mobile_image: /img/uploads/home-music-artists-768px.jpg
+    name: For Music Artists
+    tablet_image: /img/uploads/home-music-artists-768px.jpg
+    url: /services/music-artists
 ---
 
