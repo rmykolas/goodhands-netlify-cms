@@ -96,7 +96,7 @@ collections:
           - {label: Large Tablet Image, name: large_tablet_image, widget: image, required: false}
           - {label: Large Mobile Image, name: large_mobile_image, widget: image, required: false}
           - {label: Large Content, name: large_content, widget: text, required: false}
-          - {label: Large Content Background, name: background, widget: select, options: ["light", "dark"], required: false}
+          - {label: Large Content Background, name: large_content_background, widget: select, options: ["light", "dark"], required: false}
           - {label: Small Image Position, name: small_image_position, widget: select, options: ["top", "bottom"], , required: false}
           - {label: Small Desktop Image, name: small_desktop_image, widget: image, required: false}
           - {label: Small Tablet Image, name: small_tablet_image, widget: image, required: false}
