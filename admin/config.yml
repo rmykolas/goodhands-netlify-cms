@@ -37,6 +37,8 @@ collections:
           - {label: Layout, name: layout, widget: hidden, default: about-us}
           - {label: Meta Title, name: title, widget: string}
           - {label: Meta Description, name: description, widget: string}
+          - {label: Slug, name: slug, widget: string}
+          - {label: Surprise Me URL, name: surprise_me_url, widget: string}
           - {label: Hero Heading, name: hero_heading, widget: string}
           - {label: Client Section Heading, name: client_section_heading, widget: string}
           - {label: Client Section Text, name: client_section_text, widget: string}
@@ -61,4 +63,41 @@ collections:
           - {label: Text Section Heading, name: text_section_heading, widget: string}
           - {label: Text Section Subheading, name: text_section_subheading, widget: string}
           - {label: Text Section Content, name: text_section_content, widget: text}
-      
+  - label: "Services"
+    label_singular: "Service"
+    name: "services"
+    folder: "_services"
+    create: true
+    slug: "services/{{fields.slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: Layout, name: layout, widget: hidden, default: services}
+      - {label: Meta Title, name: title, widget: string}
+      - {label: Meta Description, name: description, widget: string}
+      - {label: Slug, name: slug, widget: string}
+      - {label: Surprise Me URL, name: surprise_me_url, widget: string}
+      - {label: Hero Heading, name: hero_heading, widget: string}
+      - {label: Hero Desktop Image, name: hero_desktop_image, widget: image}
+      - {label: Hero Tablet Image, name: hero_tablet_image, widget: image}
+      - {label: Hero Mobile Image, name: hero_mobile_image, widget: image}
+      - {label: Intro Subheading, name: intro_subheading, widget: string}
+      - {label: Intro Heading, name: intro_heading, widget: string}
+      - {label: Intro, name: intro, widget: text}
+      - label: Sections
+        name: sections
+        widget: list
+        fields:
+          - {label: Heading, name: heading, widget: string}
+          - {label: Content, name: content, widget: text}
+          - {label: Background, name: background, widget: select, options: ["light", "dark"]}
+          - {label: Large Image Position, name: large_image_position, widget: select, options: ["left", "right"]}
+          - {label: Large Desktop Image, name: large_desktop_image, widget: image}
+          - {label: Large Tablet Image, name: large_tablet_image, widget: image}
+          - {label: Large Mobile Image, name: large_mobile_image, widget: image}
+          - {label: Small Image Position, name: small_image_position, widget: select, options: ["top", "bottom"], , required: false}
+          - {label: Small Desktop Image, name: small_desktop_image, widget: image, required: false}
+          - {label: Small Tablet Image, name: small_tablet_image, widget: image, required: false}
+          - {label: Small Mobile Image, name: small_mobile_image, widget: image, required: false}
+          - {label: Video Link, name: hero_heading, widget: string, required: false}
+        
