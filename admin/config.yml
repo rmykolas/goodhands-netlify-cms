@@ -34,14 +34,31 @@ collections:
         name: "about"
         file: "about.md"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
           - {label: Layout, name: layout, widget: hidden, default: about-us}
+          - {label: Meta Title, name: title, widget: string}
+          - {label: Meta Description, name: description, widget: string}
+          - {label: Hero Heading, name: hero_heading, widget: string}
+          - {label: Client Section Heading, name: client_section_heading, widget: string}
+          - {label: Client Section Text, name: client_section_text, widget: string}
+          - label: Clients
+            name: clients
+            widget: list
+            fields:
+              - {label: Logo, name: logo, widget: image}
+          - {label: Team Heading, name: team_heading, widget: string}
           - label: Team
             name: team
             widget: list
             fields:
               - {label: Name, name: name, widget: string}
               - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
+              - {label: Desktop Photo, name: desktop_photo, widget: image}
+              - {label: Tablet Photo, name: tablet_photo, widget: image}
+              - {label: Mobile Photo, name: mobile_photo, widget: image}
+              - {label: Instagram, name: instagram, widget: string}
+              - {label: Twitter, name: twitter, widget: string}
+              - {label: Linkedin, name: linkedin, widget: string}
+          - {label: Text Section Heading, name: text_section_heading, widget: string}
+          - {label: Text Section Subheading, name: text_section_subheading, widget: string}
+          - {label: Text Section Content, name: text_section_content, widget: text}
       
