@@ -33,46 +33,50 @@
   </section>
 {% endif %}
 
-<section class="three-col">
-  <div class="three-col__big-col{% if service.large_block_position == 'left' %} order-2 order-sm-1{% else %} order-1 order-sm-2{% endif %}{% if service.large_content_background == 'dark' %} grain--dark text-white{% else %} grain--light{% endif %}">
-    {% if service.large_desktop_image %}
-      <div class="padding-y-7 image image--second">
-        <picture>
-          <source media="(max-width: 450px)" srcset="{{ service.large_mobile_image }}">
-          <source media="(max-width: 768px)" srcset="{{ service.large_tablet_image }}">
-          <img data-src="{{ service.large_desktop_image }}" class="img-absolute lazy" data-proofer-ignore data-aos="fade">
-        </picture>
-        {% if service.video_link %}
-          <a href="{{ service.video_link }}" class="video-trigger"><img src="/assets/img/icon--play.svg" class="svg"></a>
+{% if page.sections %}
+  <section class="three-col">
+    {% for service in page.sections %}
+      <div class="three-col__big-col{% if service.large_block_position == 'left' %} order-2 order-sm-1{% else %} order-1 order-sm-2{% endif %}{% if service.large_content_background == 'dark' %} grain--dark text-white{% else %} grain--light{% endif %}">
+        {% if service.large_desktop_image %}
+          <div class="padding-y-7 image image--second">
+            <picture>
+              <source media="(max-width: 450px)" srcset="{{ service.large_mobile_image }}">
+              <source media="(max-width: 768px)" srcset="{{ service.large_tablet_image }}">
+              <img data-src="{{ service.large_desktop_image }}" class="img-absolute lazy" data-proofer-ignore data-aos="fade">
+            </picture>
+            {% if service.video_link %}
+              <a href="{{ service.video_link }}" class="video-trigger"><img src="/assets/img/icon--play.svg" class="svg"></a>
+            {% endif %}
+          </div>
+        {% elsif service.large_content %}
+          <div class="padding-y-2 padding-y-md-3 container container--pr">
+            <p class="text--40 padding-right-md-1" data-jarallax-element="-50">{{ service.large_content }}</p>
+          </div>
         {% endif %}
       </div>
-    {% elsif service.large_content %}
-      <div class="padding-y-2 padding-y-md-3 container container--pr">
-        <p class="text--40 padding-right-md-1" data-jarallax-element="-50">{{ service.large_content }}</p>
-      </div>
-    {% endif %}
-  </div>
 
-  <div class="three-col__two-col{% if service.large_block_position == 'left' %} order-1 order-sm-2{% else %} order-2 order-sm-1{% endif %}">
-    <div class="three-col__half-image{% if service.small_image_position == 'top' %} order-2 order-sm-1{% else %} order-2{% endif %}{% if service.small_desktop_image %} padding-top-8 padding-top-sm-7 padding-top-md-0{% else %} container padding-top-1 padding-bottom-4 d-none d-sm-block d-md-none{% endif %}{% if service.background == 'dark' %} grain--dark text-white{% else %} grain--light{% endif %}">
-      {% if service.small_desktop_image %}
-        <div class="image">
-          <picture>
-              <source media="(max-width: 450px)" srcset="{{ service.small_mobile_image }}">
-              <source media="(max-width: 768px)" srcset="{{ service.small_tablet_image }}">
-              <img data-src="{{ service.small_desktop_image }}" class="img-absolute lazy" data-proofer-ignore data-aos="fade">
-          </picture>
+      <div class="three-col__two-col{% if service.large_block_position == 'left' %} order-1 order-sm-2{% else %} order-2 order-sm-1{% endif %}">
+        <div class="three-col__half-image{% if service.small_image_position == 'top' %} order-2 order-sm-1{% else %} order-2{% endif %}{% if service.small_desktop_image %} padding-top-8 padding-top-sm-7 padding-top-md-0{% else %} container padding-top-1 padding-bottom-4 d-none d-sm-block d-md-none{% endif %}{% if service.large_content_background == 'dark' %} grain--dark text-white{% else %} grain--light{% endif %}">
+          {% if service.small_desktop_image %}
+            <div class="image">
+              <picture>
+                  <source media="(max-width: 450px)" srcset="{{ service.small_mobile_image }}">
+                  <source media="(max-width: 768px)" srcset="{{ service.small_tablet_image }}">
+                  <img data-src="{{ service.small_desktop_image }}" class="img-absolute lazy" data-proofer-ignore data-aos="fade">
+              </picture>
+            </div>
+          {% else %}
+            <h4 class="text--uppercase" data-jarallax-element="-25">{{ service.heading }}</h4>
+          {% endif %}
         </div>
-      {% else %}
-        <h4 class="text--uppercase" data-jarallax-element="-25">{{ service.heading }}</h4>
-      {% endif %}
-    </div>
-    <div class="padding-y-1 three-col__half-col container container--pr{% unless service.small_desktop_image %} three-col__desc-only{% endunless %}{% if service.small_image_position == 'top' %} order-1 order-sm-2{% else %} order-1{% endif %}{% if service.background == 'dark' %} grain--dark text-white{% else %} grain--light{% endif %}">
-      {% if service.heading %}<h4 class="d-block d-sm-none d-md-block text--uppercase" data-jarallax-element="-25">{{ service.heading }}</h4>{% endif %}
-      {% if service.content %}<p class="text--only-20 text--underline three-col__desc" data-jarallax-element="-25">​​{{ service.content }}</p>{% endif %}
-    </div>
-  </div>
-</section>
+        <div class="padding-y-1 three-col__half-col container container--pr{% unless service.small_desktop_image %} three-col__desc-only{% endunless %}{% if service.small_image_position == 'top' %} order-1 order-sm-2{% else %} order-1{% endif %}{% if service.background == 'dark' %} grain--dark text-white{% else %} grain--light{% endif %}">
+          {% if service.heading %}<h4 class="d-block d-sm-none d-md-block text--uppercase" data-jarallax-element="-25">{{ service.heading }}</h4>{% endif %}
+          {% if service.content %}<p class="text--only-20 text--underline three-col__desc" data-jarallax-element="-25">​​{{ service.content }}</p>{% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </section>
+{% endif %}
 
 
 {% include show-project.html %}
