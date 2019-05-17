@@ -4,7 +4,7 @@ title: 'Creative Agency for Startups | GOOD HANDS | Design, Branding, Strategy'
 description: >-
   Our creative agency builds brands and products for growing startups through
   design, film production, social growth, and digital marketing.
-slug: startups
+seo_url: startups
 surprise_me_url: /work/startups/we-wear-us-branding-film-production/
 hero_heading: GOOD HANDS FOR STARTUPS
 hero_desktop_image: /img/uploads/startups-services-hero-1280px.jpg
