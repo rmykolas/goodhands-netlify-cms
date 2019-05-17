@@ -18,23 +18,29 @@ clients:
   - logo: /img/uploads/client-logo-6.png
 team_heading: 'WE SHARE A PASSION FOR GROWING BRANDS THROUGH EMPATHY, CURIOSITY, AND CAFFEINE'
 team:
-  - instagram: 'https://www.instagram.com/danielbaldwin/'
+  - desktop_photo: /img/uploads/about-daniel-baldwin-1280px.jpg
+    instagram: 'https://www.instagram.com/danielbaldwin/'
     linkedin: 'https://www.linkedin.com/in/danielbaldwinco/'
+    mobile_photo: /img/uploads/about-daniel-baldwin-360px.jpg
     name: Daniel Baldwin
-    photo: /img/uploads/daniel.jpg
     position: CREATIVE DIRECTOR
+    tablet_photo: /img/uploads/about-daniel-baldwin-768px.jpg
     twitter: 'https://twitter.com/danielbaldwinco'
-  - instagram: 'https://www.instagram.com/akooms/'
+  - desktop_photo: /img/uploads/about-amrit-singh-1280px.jpg
+    instagram: 'https://www.instagram.com/akooms/'
     linkedin: 'https://www.linkedin.com/in/amritksingh/'
+    mobile_photo: /img/uploads/about-amrit-singh-360px.jpg
     name: Amrit Singh
-    photo: /img/uploads/amrit.jpg
     position: DIRECTOR OF GROWTH
+    tablet_photo: /img/uploads/about-amrit-singh-768px.jpg
     twitter: 'https://twitter.com/akooms'
-  - instagram: 'https://www.instagram.com/rmykolas/'
+  - desktop_photo: /img/uploads/about-mykolas-raizys-1280px.jpg
+    instagram: 'https://www.instagram.com/rmykolas/'
     linkedin: 'https://www.linkedin.com/in/mykolasraizys/'
+    mobile_photo: /img/uploads/about-mykolas-raizys-360px.jpg
     name: Mykolas Raižys
-    photo: /img/uploads/mykolas.jpg
     position: DIRECTOR OF DEVELOPMENT
+    tablet_photo: /img/uploads/about-mykolas-raizys-768px.jpg
     twitter: 'https://twitter.com/rmykolas'
 text_section_heading: OUR PROCESS
 text_section_subheading: >-
