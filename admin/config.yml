@@ -143,7 +143,7 @@ collections:
         name: videos
         widget: list
         fields:
-          - {label: Video, name: url, widget: string, required: false}
+          - {label: Video, name: url, widget: image, required: false}
           - {label: Placeholder, name: placeholder, widget: image, required: false}
           - {label: Autoplay, name: autoplay, widget: select, options: ["true", "false"], required: false}
           - {label: Loop, name: loop, widget: select, options: ["true", "false"], required: false}
