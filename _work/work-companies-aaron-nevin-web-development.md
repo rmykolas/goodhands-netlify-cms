@@ -24,7 +24,15 @@ thumbnail_tablet_image: >-
 thumbnail_mobile_image: >-
   https://res.cloudinary.com/goodhands/image/upload/v1559566037/case-studies/aaron-nevin/aaron-nevin-thumbnail-360px_wqaiil.jpg
 videos:
-  - {}
+  - autoplay: 'true'
+    controls: 'false'
+    loop: 'true'
+    muted: 'true'
+    placeholder: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559574320/case-studies/aaron-nevin/case-study-aaron-nevin-01_rc9q1p.jpg
+    playsinline: 'true'
+    url: >-
+      https://res.cloudinary.com/goodhands/video/upload/v1559574287/case-studies/aaron-nevin/case-study-aaron-nevin-01_plhh08.mp4
 images: []
 credits:
   - credit: '<a target=''_blank'' href=''https://aaronnevin.com/''>aaronnevin.com</a>'
