@@ -7,6 +7,13 @@ media_folder: "img/uploads" # Folder where user uploaded files should go
 display_url: https://goodhands.co
 site_url: https://goodhands-cms.netlify.com/
 
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: goodhands
+    api_key: 594195651842846
+    use_transformations: false
+
 collections:
   - label: "Pages"
     name: "pages"
