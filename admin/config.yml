@@ -108,5 +108,5 @@ collections:
           - {label: Small Desktop Image, name: small_desktop_image, widget: image, required: false}
           - {label: Small Tablet Image, name: small_tablet_image, widget: image, required: false}
           - {label: Small Mobile Image, name: small_mobile_image, widget: image, required: false}
-          - {label: Video Link, name: hero_heading, widget: string, required: false}
+          - {label: Video Link, name: video_link, widget: string, required: false}
         
