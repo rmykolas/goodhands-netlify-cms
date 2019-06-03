@@ -129,7 +129,7 @@ collections:
       - {label: Meta Title, name: title, widget: string}
       - {label: Meta Description, name: description, widget: string}
       - {label: SEO URL, name: seo_url, widget: string}
-      - {label: Surprise Me URL, name: surprise_me_url, widget: string}
+      - {label: Services URL, name: services_url, widget: string}
       - {label: Order, name: order, widget: string}
       - {label: Heading, name: heading, widget: string}
       - {label: Subheading, name: subheading, widget: string}
