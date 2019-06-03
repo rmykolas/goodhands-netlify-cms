@@ -7,9 +7,12 @@ description: >-
 seo_url: startups
 surprise_me_url: /work/startups/we-wear-us-branding-film-production/
 hero_heading: GOOD HANDS FOR STARTUPS
-hero_desktop_image: /img/uploads/startups-services-hero-1280px.jpg
-hero_tablet_image: /img/uploads/startups-services-hero-768px.jpg
-hero_mobile_image: /img/uploads/startups-services-hero-360px.jpg
+hero_desktop_image: >-
+  https://res.cloudinary.com/goodhands/image/upload/v1559565997/services/startups/startups-services-hero-1280px_cre7sn.jpg
+hero_tablet_image: >-
+  https://res.cloudinary.com/goodhands/image/upload/v1559565996/services/startups/startups-services-hero-768px_cbh39o.jpg
+hero_mobile_image: >-
+  https://res.cloudinary.com/goodhands/image/upload/v1559565996/services/startups/startups-services-hero-360px_ylrxpi.jpg
 intro_subheading: FOR STARTUPS
 intro_heading: >-
   Our proven growth and design strategies keep your consumers in love with your
