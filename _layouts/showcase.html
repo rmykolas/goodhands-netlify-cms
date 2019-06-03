@@ -25,7 +25,7 @@
       <div class="container container--small-fluid">
         <div class="row">
           <div class="col-8">
-            <video {% if video.autoplay == true %}autoplay{% endif %} {% if video.loop == true %}loop{% endif %} {% if video.muted == true %}muted{% endif %} {% if video.controls == true %}controls{% endif %} {% if video.playsinline == true %}playsinline{% endif %} poster="{{ video.placeholder }}">
+            <video {% if video.autoplay == 'true' %}autoplay{% endif %} {% if video.loop == 'true' %}loop{% endif %} {% if video.muted == 'true' %}muted{% endif %} {% if video.controls == 'true' %}controls{% endif %} {% if video.playsinline == 'true' %}playsinline{% endif %} poster="{{ video.placeholder }}">
                <source src="{{ video.url }}" type="video/mp4">
             </video>
           </div>
