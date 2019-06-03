@@ -52,9 +52,9 @@
         <div class="col {{ work.filters }}">
           <a href="{{ work.url }}" class="d-block position-relative margin-bottom-1">
             <picture>
-              <source media="(min-width: 1280px)" srcset="{{ work.thumbnail_large }}">
-              <source media="(min-width: 768px)" srcset="{{ work.thumbnail_medium }}">
-              <img src="{{ work.thumbnail_small }}" class="img-absolute">
+              <source media="(max-width: 450px)" srcset="{{ page.thumbnail_mobile_image }}">
+              <source media="(max-width: 992px)" srcset="{{ page.thumbnail_tablet_image }}">
+              <img src="{{ work.thumbnail_desktop_image }}" class="img-absolute">
             </picture>
           </a>
         </div>
