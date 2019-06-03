@@ -17,7 +17,7 @@ services:
     mobile_image: /img/uploads/home-startups-360px.jpg
     name: For Startups
     tablet_image: /img/uploads/home-startups-768px.jpg
-    url: /services/startup
+    url: /services/startups
   - desktop_image: /img/uploads/home-companies-1280px.jpg
     mobile_image: /img/uploads/home-companies-360px.jpg
     name: For Companies
