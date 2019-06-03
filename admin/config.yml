@@ -143,22 +143,22 @@ collections:
         name: videos
         widget: list
         fields:
-          - {label: Video, name: url, widget: string}
-          - {label: Placeholder, name: placeholder, widget: image}
-          - {label: Autoplay, name: autoplay, widget: select, options: ["true", "false"]}
-          - {label: Loop, name: loop, widget: select, options: ["true", "false"]}
-          - {label: Muted, name: muted, widget: select, options: ["true", "false"]}
-          - {label: Controls, name: controls, widget: select, options: ["true", "false"]}
-          - {label: Playsinline, name: playsinline, widget: select, options: ["true", "false"]}
+          - {label: Video, name: url, widget: string, required: false}
+          - {label: Placeholder, name: placeholder, widget: image, required: false}
+          - {label: Autoplay, name: autoplay, widget: select, options: ["true", "false"], required: false}
+          - {label: Loop, name: loop, widget: select, options: ["true", "false"], required: false}
+          - {label: Muted, name: muted, widget: select, options: ["true", "false"], required: false}
+          - {label: Controls, name: controls, widget: select, options: ["true", "false"], required: false}
+          - {label: Playsinline, name: playsinline, widget: select, options: ["true", "false"], required: false}
       - label: Images
         name: images
         widget: list
         fields:
-          - {label: Image, name: url, widget: image}
+          - {label: Image, name: url, widget: image, required: false}
       - label: Credits
         name: credits
         widget: list
         fields:
-          - {label: Tile, name: title, widget: string}
-          - {label: Credit, name: credit, widget: string}
+          - {label: Tile, name: title, widget: string, required: false}
+          - {label: Credit, name: credit, widget: string, required: false}
       - {label: Filters, name: filters, widget: string}
