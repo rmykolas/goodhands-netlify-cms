@@ -116,4 +116,18 @@ collections:
           - {label: Small Tablet Image, name: small_tablet_image, widget: image, required: false}
           - {label: Small Mobile Image, name: small_mobile_image, widget: image, required: false}
           - {label: Video Link, name: video_link, widget: string, required: false}
+  - label: "Work"
+    label_singular: "Work"
+    name: "work"
+    folder: "_work"
+    create: true
+    slug: "{{seo_url}}"
+    editor:
+      preview: false
+    fields:
+      - {label: Layout, name: layout, widget: string, default: showcase}
+      - {label: Meta Title, name: title, widget: string}
+      - {label: Meta Description, name: description, widget: string}
+      - {label: SEO URL, name: seo_url, widget: string}
+      - {label: Surprise Me URL, name: surprise_me_url, widget: string}
         
