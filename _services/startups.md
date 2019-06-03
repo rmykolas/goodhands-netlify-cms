@@ -93,7 +93,6 @@ sections:
       Product Photography, Marketing Videos, Case Studies, Copywriting,
       Storyboarding, Motion Graphics.
     heading: PRODUCTION
-    hero_heading: 'https://player.vimeo.com/video/286470947'
     large_block_position: right
     large_desktop_image: >-
       https://res.cloudinary.com/goodhands/image/upload/v1559565997/services/startups/startups-services-production-lg-1280px_sxqoce.jpg
@@ -108,6 +107,7 @@ sections:
       https://res.cloudinary.com/goodhands/image/upload/v1559565997/services/startups/startups-services-production-360px_lbbnje.jpg
     small_tablet_image: >-
       https://res.cloudinary.com/goodhands/image/upload/v1559565997/services/startups/startups-services-production-768px_zhohuq.jpg
+    video_link: 'https://player.vimeo.com/video/286470947'
   - background: dark
     content: >-
       Websites, eCommerce, Web & Mobile Apps, Interactive Prototypes, Plugin
