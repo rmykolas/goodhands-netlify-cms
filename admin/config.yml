@@ -70,6 +70,13 @@ collections:
           - {label: Text Section Heading, name: text_section_heading, widget: string}
           - {label: Text Section Subheading, name: text_section_subheading, widget: string}
           - {label: Text Section Content, name: text_section_content, widget: text}
+      - label: "Contact Page"
+        name: "contact"
+        file: "contact.md"
+        fields:
+          - {label: Layout, name: layout, widget: string, default: contact-us}
+          - {label: Meta Title, name: title, widget: string}
+          - {label: Meta Description, name: description, widget: string}
   - label: "Services"
     label_singular: "Service"
     name: "services"
