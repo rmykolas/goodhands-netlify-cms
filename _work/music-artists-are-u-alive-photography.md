@@ -6,7 +6,7 @@ description: >-
   capture photos of artists and festivals, and create merchandise.
 seo_url: music-artists/are-u-alive-photography/
 services_url: /services/companies
-order: '5'
+order: 5
 heading: >-
   BRANDING AN ONLINE LIFESTYLE PUBLICATION HIGHLIGHTING FESTIVAL CULTURE,
   PHOTOS, & MERCHANDISE
