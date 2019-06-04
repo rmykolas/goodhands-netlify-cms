@@ -16,7 +16,7 @@ read_time: 4
 ---
 This morning, I saw a post on LinkedIn that shared a report put out by [Bynder](https://www.bynder.com/en/) and [OnBrand](https://onbrand.me/) that gives insight into the [State of Branding in 2018](https://blog.bynder.com/en/bynder-onbrand-2018-state-of-branding-report/) They surveyed 500+ marketing decision makers and shared five trends set to dominate the industry in 2018.
 
-![](https://res.cloudinary.com/goodhands/image/upload/v1559566661/blog/blog-post-1_xtvqsr.png "Source: <a href=\"https://twitter.com\">Twitter</a>")
+![](https://res.cloudinary.com/goodhands/image/upload/v1559566661/blog/blog-post-1_xtvqsr.png "Source: Twitter")
 
 Reading this, I thought “branding is one of those things marketers know they need to do but typically put it on the backburner until someone else does it for them”. To some, it is viewed as one of those projects that don’t “move the needle”. And that’s okay, because if your primary focus is not your brand, it means that you’re doing something right with your product or service.
 
@@ -34,12 +34,9 @@ What changed in Dominos’ strategy to contribute to their growing revenue? Domi
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel sem vitae lacus fermentum lobortis vel”
 >
-> \
->
->
 > DANIEL BALDWIN, CO-FOUNDER OF GOOD HANDS
 
-![](https://res.cloudinary.com/goodhands/image/upload/v1559566662/blog/blog-post-2_m53ogn.png "Source: <a href=\"https://dominos.com\">Dominos</a>")
+![](https://res.cloudinary.com/goodhands/image/upload/v1559566662/blog/blog-post-2_m53ogn.png "Source: Dominos")
 
 ## Lorem Ipsum Dolor Sit
 
