@@ -15,6 +15,25 @@ media_library:
     use_transformations: false
 
 collections:
+  - label: "Good Reads"
+    label_singular: "Good Read"
+    name: "good_reads"
+    folder: "_good-reads"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - {label: Layout, name: layout, widget: string, default: post}
+      - {label: Meta Title, name: title, widget: string}
+      - {label: Meta Description, name: description, widget: string}
+      - {label: Name, name: name, widget: string}
+      - {label: Author Name, name: author_name, widget: string}
+      - {label: Author Image, name: author_image, widget: image}
+      - {label: Author Position, name: author_position, widget: string}
+      - {label: Category, name: category, widget: select, options: ["Thoughts", "Interviews"],}
+      - {label: Read Time, name: read_time, widget: number}
+      - {label: 'Blog post content', name: 'body', widget: 'markdown'}
   - label: "Pages"
     name: "pages"
     editor:
@@ -169,23 +188,5 @@ collections:
           - {label: Tile, name: title, widget: string, required: false}
           - {label: Credit, name: credit, widget: string, required: false}
       - {label: Filters, name: filters, widget: string}
-  - label: "Posts"
-    label_singular: "Post"
-    name: "posts"
-    folder: "_posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - {label: Layout, name: layout, widget: string, default: post}
-      - {label: Meta Title, name: title, widget: string}
-      - {label: Meta Description, name: description, widget: string}
-      - {label: Name, name: name, widget: string}
-      - {label: Author Name, name: author_name, widget: string}
-      - {label: Author Image, name: author_image, widget: image}
-      - {label: Author Position, name: author_position, widget: string}
-      - {label: Category, name: category, widget: select, options: ["Thoughts", "Interviews"],}
-      - {label: Read Time, name: read_time, widget: number}
-      - {label: 'Blog post content', name: 'body', widget: 'markdown'}
+
 
