@@ -6,7 +6,7 @@ description: >-
   interactive online experience for their portfolio.
 seo_url: companies/yard-nyc-agency-web-development/
 services_url: /services/agencies
-order: '7'
+order: 7
 heading: 'REFRESHING THE WEB PRESENCE FOR ADAGE SMALL AGENCY OF THE YEAR, YARD NYC'
 subheading: 'CLIENT: YARD NYC / INDUSTRY: CREATIVE AGENCY / ROLE: DEVELOPMENT'
 hero_desktop_image: >-
