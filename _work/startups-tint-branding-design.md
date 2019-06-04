@@ -6,7 +6,7 @@ description: >-
   market through user-generated content or UGC.
 seo_url: startups/tint-branding-design/
 services_url: /services/startups
-order: '11'
+order: 11
 heading: >-
   ENABLING BRANDS TO INCREASE ORGANIC FAN ENGAGEMENT AT EVERY LEVEL THROUGH
   USER-GENERATED CONTENT
