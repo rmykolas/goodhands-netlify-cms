@@ -6,7 +6,7 @@ description: >-
   identity and website to promote her music and upcoming tour dates.
 seo_url: music-artists/arumi-branding-design/
 services_url: /services/music-artists
-order: '3'
+order: 3
 heading: 'INCREASING FAN AWARENESS AND EXPOSURE FOR RISING LA PRODUCER, ARUMI'
 subheading: 'CLIENT: ARUMI / INDUSTRY: MUSIC / ROLE: BRANDING + DESIGN'
 hero_desktop_image: >-
