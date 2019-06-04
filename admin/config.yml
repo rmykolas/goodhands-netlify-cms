@@ -20,14 +20,14 @@ collections:
     name: "good_reads"
     folder: "_good-reads"
     create: true
-    slug: "{{name}}"
+    slug: "{{post_name}}"
     editor:
       preview: false
     fields:
       - {label: Layout, name: layout, widget: string, default: post}
       - {label: Meta Title, name: title, widget: string}
       - {label: Meta Description, name: description, widget: string}
-      - {label: Name, name: name, widget: string}
+      - {label: Post Name, name: post_name, widget: string}
       - {label: Author Name, name: author_name, widget: string}
       - {label: Author Image, name: author_image, widget: image}
       - {label: Author Position, name: author_position, widget: string}
