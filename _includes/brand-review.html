@@ -1,25 +1,25 @@
 <div class="container">
 	<div class="row no-gutters">
 		<div class="col-8 form__header d-flex justify-content-between align-items-center">
-			<p class="form__heading">Get your free brand review</p>
+			<p class="form__heading">REQUEST A 20 MINUTE CONSULTATION</p>
 			<a class="form__close"><img class="svg" src="/assets/img/icon--close.svg"></a>
 		</div>
 		<div class="col-8 d-none d-sm-flex col-md-5 align-items-center form__column padding-y-sm-1">
-			<p class="text--32">Not sure where to start with your next marketing, design, or video project? Drop us a line and our team will nudge you in the right direction!</p>
+			<p class="text--32">During our consultation, we’ll review your online presence and share insights on how you can use your brand’s strengths, weaknesses, and differentiators to increase impressions, conversions, and become cultural leaders amongst your competition.</p>
 		</div>
 		<div class="col-8 col-md-3">
 			<form class="validate-this" id="brand-review-form" name="Brand_Review" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
 				<input class="d-none" name="bot-field" />
 				<div class="input-wrap">
-					<input class="review name" type="text" name="name" placeholder="First + Last Name" required>
+					<input class="review name" type="text" name="name" placeholder="Full Name" required>
 					<div class="input-wrap__error"></div>
 				</div>
 				<div class="input-wrap">
-					<input class="review email" type="email" name="email" placeholder="Email" required>
+					<input class="review email" type="email" name="email" placeholder="Business Email" required>
 					<div class="input-wrap__error"></div>
 				</div>
 				<div class="input-wrap">
-					<input class="review url" type="text" name="website" placeholder="Website/Instagram" required>
+					<input class="review url" type="text" name="website" placeholder="Website" required>
 					<div class="input-wrap__error"></div>
 				</div>
 				<div class="fullscreen-choice-trigger">
@@ -30,23 +30,23 @@
 					<div class="fullscreen-choice__interests">
 						<p class="text--20 text--medium">Interests (select all that apply)</p>
 						<label class="fullscreen-choice__container">
-						  <input class="review interests" type="checkbox" name="Branding">
-						   <span class="label">Branding</span>
+						  <input class="review interests" type="checkbox" name="Brand_Identity">
+						   <span class="label">Brand Identity</span>
 						  <span class="radio"></span>
 						</label>
 						<label class="fullscreen-choice__container">
-						  <input class="review interests" type="checkbox" name="Design">
-						   <span class="label">Design</span>
+						  <input class="review interests" type="checkbox" name="Website">
+						   <span class="label">Website</span>
 						  <span class="radio"></span>
 						</label>
 						<label class="fullscreen-choice__container">
-						  <input class="review interests" type="checkbox" name="Development">
-						   <span class="label">Development</span>
+						  <input class="review interests" type="checkbox" name="App">
+						   <span class="label">Web/Mobile App</span>
 						  <span class="radio"></span>
 						</label>
 						<label class="fullscreen-choice__container">
 						  <input class="review interests" type="checkbox" name="Film">
-						   <span class="label">Film</span>
+						   <span class="label">Film Production</span>
 						  <span class="radio"></span>
 						</label>
 						<label class="fullscreen-choice__container">
@@ -55,13 +55,8 @@
 						  <span class="radio"></span>
 						</label>
 						<label class="fullscreen-choice__container">
-						  <input class="review interests" type="checkbox" name="Photography">
-						   <span class="label">Photography</span>
-						  <span class="radio"></span>
-						</label>
-						<label class="fullscreen-choice__container">
-						  <input class="review interests" type="checkbox" name="Product">
-						   <span class="label">Product</span>
+						  <input class="review interests" type="checkbox" name="Social">
+						   <span class="label">Social</span>
 						  <span class="radio"></span>
 						</label>
 						<label class="fullscreen-choice__container">
@@ -74,49 +69,7 @@
 						<p class="text--12 text--medium text--underline text--uppercase fullscreen-choice__trigger fullscreen-choice__trigger--checkbox">Continue</p>
 					</div>
 				</div>
-				<div class="fullscreen-choice-trigger">
-					<input class="review budget" type="text" name="budget" placeholder="Est. Budget" disabled>
-				</div>
-				<div class="fullscreen-choice d-flex flex-column justify-content-between">
-					<a class="fullscreen-choice__close fullscreen-choice__trigger fullscreen-choice__trigger--radio"><img src="/assets/img/icon--minus.png"></a>
-					<div class="fullscreen-choice__budget">
-						<p class="text--20 text--medium">Est. Monthly Budget</p>
-						<label class="fullscreen-choice__container">
-						  <input class="review budget" type="radio" name="Less_Than_5000" data-name="Less than $5,000">
-						  <span class="label">Less than $5,000</span>
-						  <span class="radio"></span>
-						</label>
-						<label class="fullscreen-choice__container">
-						  <input class="review budget" type="radio" name="5000-10000" data-name="$5,000 - $10,000">
-						   <span class="label">$5,000 - $10,000</span>
-						  <span class="radio"></span>
-						</label>
-						<label class="fullscreen-choice__container">
-						  <input class="review budget" type="radio" name="10000-15000" data-name="$10,000 - $15,000">
-						   <span class="label">$10,000 - $15,000</span>
-						  <span class="radio"></span>
-						</label>
-						<label class="fullscreen-choice__container">
-						  <input class="review budget" type="radio" name="15000-25000" data-name="$15,000 - $25,000">
-						   <span class="label">$15,000 - $25,000</span>
-						  <span class="radio"></span>
-						</label>
-						<label class="fullscreen-choice__container">
-						  <input class="review budget" type="radio" name="Over_25000" data-name="Over $25,000">
-						   <span class="label">Over $25,000</span>
-						  <span class="radio"></span>
-						</label>
-						<label class="fullscreen-choice__container">
-						  <input class="review budget" type="radio" name="Not_Sure" data-name="Not Sure">
-						   <span class="label">Not Sure</span>
-						  <span class="radio"></span>
-						</label>
-					</div>
-					<div class="d-flex align-items-center justify-content-center">
-						<p class="text--12 text--medium text--underline text--uppercase fullscreen-choice__trigger fullscreen-choice__trigger--radio">Continue</p>
-					</div>
-				</div>
-				<textarea class="review message" name="message" placeholder="My 2019 goal is..." rows="4"></textarea>
+				<textarea class="review message" name="message" placeholder="Anything specific you’d like us to know?" rows="4"></textarea>
 			</form>
 		</div>
 		<div class="col-8"><button class="review submit form-submit h-100" type="submit" form="brand-review-form" onclick="!this.form&&$('#'+$(this).attr('form')).submit()">Submit my info</button></div>
