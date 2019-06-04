@@ -20,7 +20,7 @@ collections:
     name: "good_reads"
     folder: "_good-reads"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{name}}"
     editor:
       preview: false
     fields:
