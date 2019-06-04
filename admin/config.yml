@@ -33,6 +33,7 @@ collections:
       - {label: Author Position, name: author_position, widget: string}
       - {label: Category, name: category, widget: select, options: ["Thoughts", "Interviews"],}
       - {label: Read Time, name: read_time, widget: number}
+      - {label: Featured Image, name: featured_image, widget: image}
       - {label: 'Blog post content', name: 'body', widget: 'markdown'}
   - label: "Pages"
     name: "pages"
