@@ -77,6 +77,13 @@ collections:
           - {label: Layout, name: layout, widget: string, default: contact-us}
           - {label: Meta Title, name: title, widget: string}
           - {label: Meta Description, name: description, widget: string}
+      - label: "Work Page"
+        name: "work"
+        file: "work.md"
+        fields:
+          - {label: Layout, name: layout, widget: string, default: work}
+          - {label: Meta Title, name: title, widget: string}
+          - {label: Meta Description, name: description, widget: string}
   - label: "Services"
     label_singular: "Service"
     name: "services"
