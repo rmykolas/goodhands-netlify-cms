@@ -6,7 +6,7 @@ description: >-
   interactive marketing website.
 seo_url: startups/engine-commerce-web-development/
 services_url: /services/agencies
-order: '2'
+order: 2
 heading: >-
   DEVELOPING AN INTERACTIVE MARKETING WEBSITE TO ESTABLISH AN E-COMMERCE
   STARTUP, ENGINE COMMERCE
