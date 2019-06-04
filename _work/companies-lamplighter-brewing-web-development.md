@@ -6,7 +6,7 @@ description: >-
   online experience for beer lovers through creative development.
 seo_url: companies/lamplighter-brewing-web-development/
 services_url: /services/companies
-order: '10'
+order: 10
 heading: CRAFTING AN AWARD-WINNING ONLINE EXPERIENCE FOR CRAFT BEER LOVERS
 subheading: 'CLIENT: LAMPLIGHTER BREWING / INDUSTRY: FOOD & BEVERAGE / ROLE: DEVELOPMENT'
 hero_desktop_image: >-
