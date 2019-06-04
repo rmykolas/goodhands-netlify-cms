@@ -6,7 +6,7 @@ description: >-
   identity and produce a film to attract women of all backgrounds.
 seo_url: startups/we-wear-us-branding-film-production/
 services_url: /services/startups
-order: '6'
+order: 6
 heading: BRANDING A FIRST-OF-ITS-KIND ONLINE RENTAL SERVICE FOR AUTHENTIC ETHNIC WEAR
 subheading: 'CLIENT: WE WEAR US / INDUSTRY: FASHION / ROLE: BRANDING + DESIGN + PRODUCTION'
 hero_desktop_image: >-
