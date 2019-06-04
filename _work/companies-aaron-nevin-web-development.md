@@ -6,7 +6,7 @@ description: >-
   interactive online platform & gallery.
 seo_url: companies/aaron-nevin-web-development/
 services_url: /services/companies
-order: '9'
+order: 9
 heading: >-
   CREATING AN INTERACTIVE ONLINE PLATFORM & GALLERY FOR A FASHION PHOTOGRAPHER,
   AARON NEVIN
