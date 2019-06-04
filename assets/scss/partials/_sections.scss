@@ -223,6 +223,11 @@
 }
 
 .good-reads-post {
+	img {
+		@extend .img-fluid;
+		@extend .w-100;
+	}
+
 	p {
 		@extend .padding-bottom-1;
 	}
@@ -243,7 +248,7 @@
 		@extend .text--38;
 	}
 
-	h3 {
+	h2 {
 		@extend .text--medium;
 		@extend .text--24;
 	}

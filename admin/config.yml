@@ -104,6 +104,13 @@ collections:
           - {label: Layout, name: layout, widget: string, default: work}
           - {label: Meta Title, name: title, widget: string}
           - {label: Meta Description, name: description, widget: string}
+      - label: "Good Reads"
+        name: "good-reads"
+        file: "good-reads.md"
+        fields:
+          - {label: Layout, name: layout, widget: string, default: blog}
+          - {label: Meta Title, name: title, widget: string}
+          - {label: Meta Description, name: description, widget: string}
   - label: "Services"
     label_singular: "Service"
     name: "services"
