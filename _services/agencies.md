@@ -39,7 +39,7 @@ sections:
       ​​Creative Direction, Identity Development, Curation, Rebranding,
       Guidelines & Toolkits, and more.
     heading: BRANDING
-    large_block_position: right
+    large_block_position: left
     large_desktop_image: >-
       https://res.cloudinary.com/goodhands/image/upload/v1559565830/services/agencies/agencies-services-branding-lg-1280px_rpblpv.jpg
     large_mobile_image: >-
