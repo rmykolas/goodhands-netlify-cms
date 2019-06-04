@@ -6,7 +6,7 @@ description: >-
   interactive online website.
 seo_url: companies/jon-basil-tequila-web-development/
 services_url: /services/agencies
-order: '12'
+order: 12
 heading: >-
   CREATING AND INTERACTIVE ONLINE PRESENCE FOR AN EMERGING TEQUILA BRAND, JON
   BASÍL
