@@ -6,7 +6,7 @@ title: >-
 description: >-
   GOOD HANDS is a creative agency offering branding, web design, and film
   production to emerging music artists, startups, and companies.
-name: '2018 State of Branding Report: Review'
+name: 2018 State of Branding Report
 author_name: Daniel Baldwin
 author_image: >-
   https://res.cloudinary.com/goodhands/image/upload/v1559656646/blog/daniel_bpv9mx.png
