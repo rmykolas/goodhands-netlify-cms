@@ -31,9 +31,11 @@ collections:
       - {label: Author Name, name: author_name, widget: string}
       - {label: Author Image, name: author_image, widget: image}
       - {label: Author Position, name: author_position, widget: string}
-      - {label: Category, name: category, widget: select, options: ["Thoughts", "Interviews"],}
+      - {label: Category, name: category, widget: select, options: ["Thoughts", "Interviews"]}
       - {label: Read Time, name: read_time, widget: number}
       - {label: Featured Image, name: featured_image, widget: image}
+      - {label: Featured on the Home Page, name: featured, widget: select, options: ["No", "Yes"]}
+      - {label: Post Excerpt, name: post_excerpt, widget: string}
       - {label: 'Blog post content', name: 'body', widget: 'markdown'}
   - label: "Pages"
     name: "pages"
