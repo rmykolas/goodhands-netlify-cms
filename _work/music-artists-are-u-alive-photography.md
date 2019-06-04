@@ -26,7 +26,33 @@ thumbnail_tablet_image: >-
 thumbnail_mobile_image: >-
   https://res.cloudinary.com/goodhands/image/upload/v1559566089/case-studies/alive/are-u-alive-thumbnail-360px_uvaseq.jpg
 videos: []
-images: []
+images:
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566104/case-studies/alive/case-study-are-u-alive-01_fevyor.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566104/case-studies/alive/case-study-are-u-alive-02_rsyafo.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566104/case-studies/alive/case-study-are-u-alive-03_wtkloc.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566104/case-studies/alive/case-study-are-u-alive-04_wh5ook.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566104/case-studies/alive/case-study-are-u-alive-05_k1ujkh.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566104/case-studies/alive/case-study-are-u-alive-06_zf3yu9.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566104/case-studies/alive/case-study-are-u-alive-07_lxacod.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566105/case-studies/alive/case-study-are-u-alive-08_nwvncq.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566105/case-studies/alive/case-study-are-u-alive-09_iovmge.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566105/case-studies/alive/case-study-are-u-alive-10_wowwi9.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566105/case-studies/alive/case-study-are-u-alive-11_kd1bon.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566105/case-studies/alive/case-study-are-u-alive-12_utrnlt.jpg
+  - url: >-
+      https://res.cloudinary.com/goodhands/image/upload/v1559566105/case-studies/alive/case-study-are-u-alive-13_yn8n23.jpg
 credits: []
 filters: branding film marketing product photography social
 ---
