@@ -29,4 +29,4 @@ services:
     tablet_image: /img/uploads/home-agencies-768px.jpg
     url: /services/agencies
 ---
-
+light
