@@ -689,5 +689,29 @@
 		@media (min-width: 992px) and (max-width: 1279px) {
 			flex: 0 33.333333333%;
 		}
+
+		&:nth-child(2) {
+			img {
+				width: 60px;
+			}
+		}
+
+		&:nth-child(3) {
+			img {
+				width: 114px;
+			}
+		}
+
+		&:nth-child(4) {
+			img {
+				width: 75px;
+			}
+		}
+
+		&:nth-child(6) {
+			img {
+				width: 91px;
+			}
+		}
 	}
 }

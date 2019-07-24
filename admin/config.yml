@@ -169,6 +169,7 @@ collections:
       - {label: Meta Description, name: description, widget: string}
       - {label: SEO URL, name: seo_url, widget: string}
       - {label: Services URL, name: services_url, widget: string}
+      - {label: Client Category, name: categories, widget: select, options: ["companies", "music-artists", "startups", "agency"], required: true}
       - {label: Order, name: order, widget: number}
       - {label: Heading, name: heading, widget: string}
       - {label: Subheading, name: subheading, widget: string}
