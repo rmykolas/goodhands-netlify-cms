@@ -5,7 +5,8 @@ description: >-
   Emerging tequila brand, Jon Basil, partnered with GOOD HANDS to create an
   interactive online website.
 seo_url: companies/jon-basil-tequila-web-development/
-services_url: /services/agencies
+services_url: /services/companies
+categories: companies
 order: 12
 heading: >-
   CREATING AND INTERACTIVE ONLINE PRESENCE FOR AN EMERGING TEQUILA BRAND, JON
