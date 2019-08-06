@@ -6,6 +6,7 @@ description: >-
   and grow his online audience and highlight his work through photo & video.
 seo_url: companies/gianluca-franzese-social-growth/
 services_url: /services/companies
+categories: companies
 order: 8
 heading: >-
   ENGAGING AND GROWING AN ONLINE PRESENCE FOR GLOBAL ITALIAN ARTIST, GIANLUCA
