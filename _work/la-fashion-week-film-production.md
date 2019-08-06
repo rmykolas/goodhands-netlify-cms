@@ -6,6 +6,7 @@ description: >-
   HANDS to engage their live audience and grow their fanbase.
 seo_url: companies/la-fashion-week-film-production/
 services_url: /services/companies
+categories: companies
 order: 4
 heading: ENGAGING LIVE AUDIENCES AND PROMOTING UPCOMING BRANDS FOR LA FASHION WEEK
 subheading: >-
