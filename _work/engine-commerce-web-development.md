@@ -5,7 +5,8 @@ description: >-
   E-commerce platform, Engine Commerce, partnered with GOOD HANDS to develop an
   interactive marketing website.
 seo_url: startups/engine-commerce-web-development/
-services_url: /services/agencies
+services_url: /services/startups
+categories: startups
 order: 2
 heading: >-
   DEVELOPING AN INTERACTIVE MARKETING WEBSITE TO ESTABLISH AN E-COMMERCE
