@@ -8,6 +8,7 @@ description: >-
   independent ‘Rapper Radio’ campaign that connects fans with radio stations.
 seo_url: music-artists/chance-the-rapper-branding-product-web-design/
 services_url: /services/music-artists
+categories: music-artists
 order: 1
 heading: >-
   BUILDING AN INNOVATIVE PLATFORM FOR MUSIC DISCOVERY, ARTIST RELEASES, AND
