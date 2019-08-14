@@ -4,6 +4,7 @@ title: TINT Startup Branding Design Case Study | GOOD HANDS | Work
 description: >-
   Social media display company, TINT, partnered with GOOD HANDS to help brands
   market through user-generated content or UGC.
+bodybg: dark
 seo_url: startups/tint-branding-design/
 services_url: /services/startups
 categories: startups
