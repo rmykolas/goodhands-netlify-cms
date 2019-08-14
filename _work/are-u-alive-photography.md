@@ -4,6 +4,7 @@ title: AL!VE Music Photography Case Study | GOOD HANDS | Work
 description: >-
   Online lifestyle publication and blog, AL!VE, partnered with GOOD HANDS to
   capture photos of artists and festivals, and create merchandise.
+bodybg: dark
 seo_url: music-artists/are-u-alive-photography/
 services_url: /services/companies
 categories: music-artists
