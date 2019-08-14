@@ -4,6 +4,7 @@ title: Gianluca Franzese Social Growth Case Study | GOOD HANDS | Work
 description: >-
   Global Italian artist, Gianluca Franzese, partnered with GOOD HANDS to engage
   and grow his online audience and highlight his work through photo & video.
+bodybg: dark
 seo_url: companies/gianluca-franzese-social-growth/
 services_url: /services/companies
 categories: companies
