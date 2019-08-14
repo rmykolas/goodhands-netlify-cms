@@ -6,6 +6,7 @@ title: >-
 description: >-
   Chance the Rapper and Haight Brand partnered with GOOD HANDS to launch
   independent ‘Rapper Radio’ campaign that connects fans with radio stations.
+bodybg: dark
 seo_url: music-artists/chance-the-rapper-branding-product-web-design/
 services_url: /services/music-artists
 categories: music-artists
