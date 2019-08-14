@@ -4,6 +4,7 @@ title: 'Creative Agency for Music Artists | GOOD HANDS | Design, Branding, Strat
 description: >-
   Our creative agency builds culturally-relevant brands for emerging music
   artists through design, film production, social growth, and digital marketing.
+bodybg: dark
 seo_url: music-artists
 surprise_me_url: /work/music-artists/chance-the-rapper-branding-product-web-design/
 hero_heading: GOOD HANDS for Music Artists
