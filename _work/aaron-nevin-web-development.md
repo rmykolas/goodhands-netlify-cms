@@ -4,6 +4,7 @@ title: Aaron Nevin Web Development Case Study | GOOD HANDS | Work
 description: >-
   Fashion photographer, Aaron Nevin, partnered with GOOD HANDS to create an
   interactive online platform & gallery.
+bodybg: dark
 seo_url: aaron-nevin-web-development/
 services_url: /services/companies
 categories: companies
