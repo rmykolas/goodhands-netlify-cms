@@ -109,6 +109,7 @@ collections:
           - {label: Layout, name: layout, widget: string, default: work}
           - {label: Meta Title, name: title, widget: string}
           - {label: Meta Description, name: description, widget: string}
+          - {label: Body Background, name: bodybg, widget: select, options: ["light", "dark"]}
       - label: "Good Reads"
         name: "good-reads"
         file: "good-reads.md"
@@ -116,6 +117,7 @@ collections:
           - {label: Layout, name: layout, widget: string, default: blog}
           - {label: Meta Title, name: title, widget: string}
           - {label: Meta Description, name: description, widget: string}
+          - {label: Body Background, name: bodybg, widget: select, options: ["light", "dark"]}
   - label: "Services"
     label_singular: "Service"
     name: "services"
@@ -128,6 +130,7 @@ collections:
       - {label: Layout, name: layout, widget: hidden, default: services}
       - {label: Meta Title, name: title, widget: string}
       - {label: Meta Description, name: description, widget: string}
+      - {label: Body Background, name: bodybg, widget: select, options: ["light", "dark"]}
       - {label: SEO URL, name: seo_url, widget: string}
       - {label: Surprise Me URL, name: surprise_me_url, widget: string}
       - {label: Hero Heading, name: hero_heading, widget: string}
@@ -167,6 +170,7 @@ collections:
       - {label: Layout, name: layout, widget: string, default: showcase}
       - {label: Meta Title, name: title, widget: string}
       - {label: Meta Description, name: description, widget: string}
+      - {label: Body Background, name: bodybg, widget: select, options: ["light", "dark"]}
       - {label: SEO URL, name: seo_url, widget: string}
       - {label: Services URL, name: services_url, widget: string}
       - {label: Client Category, name: categories, widget: select, options: ["companies", "music-artists", "startups", "agency"], required: true}
