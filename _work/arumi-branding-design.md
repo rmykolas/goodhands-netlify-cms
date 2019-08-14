@@ -4,6 +4,7 @@ title: Arumi Music Branding and Web Design Case Study | GOOD HANDS | Work
 description: >-
   Rising LA producer, Arumi, partnered with GOOD HANDS to design a brand
   identity and website to promote her music and upcoming tour dates.
+bodybg: dark
 seo_url: music-artists/arumi-branding-design/
 services_url: /services/music-artists
 categories: music-artists
