@@ -4,6 +4,7 @@ title: LA Fashion Week Film Production Case Study | GOOD HANDS | Work
 description: >-
   Iconic fashion & runway show company, LA Fashion Week partnered with GOOD
   HANDS to engage their live audience and grow their fanbase.
+bodybg: dark
 seo_url: companies/la-fashion-week-film-production/
 services_url: /services/companies
 categories: companies
