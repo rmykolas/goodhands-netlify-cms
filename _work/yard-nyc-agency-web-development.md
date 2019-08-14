@@ -4,6 +4,7 @@ title: YARD NYC Agency Web Development Case Study | GOOD HANDS | Work
 description: >-
   AdAge Small Agency of the Year, YARD, partnered with GOOD HANDS to build an
   interactive online experience for their portfolio.
+bodybg: dark
 seo_url: companies/yard-nyc-agency-web-development/
 services_url: /services/agencies
 categories: companies
