@@ -4,6 +4,7 @@ title: We Wear Us Fashion Branding and Film Production Case Study | GOOD HANDS |
 description: >-
   Women’s fashion brand, We Wear Us, partnered with GOOD HANDS to design a brand
   identity and produce a film to attract women of all backgrounds.
+bodybg: dark
 seo_url: startups/we-wear-us-branding-film-production/
 services_url: /services/startups
 categories: startups
