@@ -4,6 +4,7 @@ title: Lamplighter Brewing Web Development Case Study | GOOD HANDS | Work
 description: >-
   Craft beer brand, Lamplighter, partnered with GOOD HANDS to build an engaging
   online experience for beer lovers through creative development.
+bodybg: dark
 seo_url: companies/lamplighter-brewing-web-development/
 services_url: /services/companies
 categories: companies
