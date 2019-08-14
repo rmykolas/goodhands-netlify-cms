@@ -4,6 +4,7 @@ title: Jon Basil Tequila Web Development Case Study | GOOD HANDS | Work
 description: >-
   Emerging tequila brand, Jon Basil, partnered with GOOD HANDS to create an
   interactive online website.
+bodybg: dark
 seo_url: companies/jon-basil-tequila-web-development/
 services_url: /services/companies
 categories: companies
