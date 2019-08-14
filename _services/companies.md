@@ -4,6 +4,7 @@ title: 'Creative Agency for Companies | GOOD HANDS | Design, Branding, Strategy'
 description: >-
   Our creative agency builds brands and products for companies of all sizes
   through design, film production, social growth, and digital marketing.
+bodybg: dark
 seo_url: companies
 surprise_me_url: /work/companies/la-fashion-week-film-production/
 hero_heading: GOOD HANDS FOR COMPANIES
