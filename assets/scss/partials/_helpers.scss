@@ -29,6 +29,10 @@ body {
   }
 }
 
+.visuallyhidden {
+	font-size: 0;
+}
+
 *:focus {
 	outline: none !important;
 }

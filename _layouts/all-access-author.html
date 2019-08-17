@@ -5,13 +5,13 @@
   <div class="container-fluid all-access__description padding-y-5 padding-top-sm-6 padding-bottom-sm-10 padding-y-md-6 text-center text-white">
     <div data-aos="fade" data-aos-delay="500">
       <p class="text--uppercase">All Access Creator</p>
-      <p class="text--24 text--uppercase">{{ page.name }}</p>
+      <h1 class="text--24 text--uppercase">{{ page.name }}</h1>
     </div>
     <div class="d-flex justify-content-center all-access__socials" data-aos="fade" data-aos-delay="500">
-      {% if page.instagram %}<a target="_blank" href="{{ page.instagram }}"><img src="/assets/img/icon--instagram.svg"></a>{% endif %}
-      {% if page.twitter %}<a target="_blank" href="{{ page.twitter }}"><img src="/assets/img/icon--twitter.svg"></a>{% endif %}
-      {% if page.medium %}<a target="_blank" href="{{ page.medium }}"><img src="/assets/img/icon--medium.svg"></a>{% endif %}
-      {% if page.vimeo %}<a target="_blank" href="{{ page.vimeo }}"><img src="/assets/img/icon--vimeo.svg"></a>{% endif %}
+      {% if page.instagram %}<a target="_blank" href="{{ page.instagram }}"><span class="visuallyhidden">Instagram</span><img src="/assets/img/icon--instagram.svg"></a>{% endif %}
+      {% if page.twitter %}<a target="_blank" href="{{ page.twitter }}"><span class="visuallyhidden">Twitter</span><img src="/assets/img/icon--twitter.svg"></a>{% endif %}
+      {% if page.medium %}<a target="_blank" href="{{ page.medium }}"><span class="visuallyhidden">Medium</span><img src="/assets/img/icon--medium.svg"></a>{% endif %}
+      {% if page.vimeo %}<a target="_blank" href="{{ page.vimeo }}"><span class="visuallyhidden">Vimeo</span><img src="/assets/img/icon--vimeo.svg"></a>{% endif %}
     </div>
   </div>
 </section>

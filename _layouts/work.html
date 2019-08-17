@@ -51,6 +51,7 @@
       {% for work in sorted %}
         <div class="col {{ work.filters }}">
           <a href="{{ work.url }}" class="d-block position-relative margin-bottom-1">
+            <span class="visuallyhidden">{{ work.title }}</span>
             <picture>
               <source media="(max-width: 450px)" srcset="{{ page.thumbnail_mobile_image }}">
               <source media="(max-width: 992px)" srcset="{{ page.thumbnail_tablet_image }}">
