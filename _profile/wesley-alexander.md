@@ -11,5 +11,14 @@ location: San Francisco, CA
 instagram: https://www.instagram.com/mellowtones/
 since: July, 2018
 headshot: /assets/all-access/wesley-alexander/profile.jpg
+galleries:
+  - hero: /assets/all-access/wesley-alexander/chase-gray-astonii/6.jpg
+    title: Chase Gray x Astonii
+    date_location: Houston, TX
+    url: /all-access/2018/08/chase-gray-astonii
+  - hero: /assets/all-access/wesley-alexander/h-town-summer-throwdown/1.jpg
+    title: H-Town Summer Throwdown
+    date_location: Houston, TX
+    url: /all-access/2018/07/h-town-summer-throwdown
 ---
 

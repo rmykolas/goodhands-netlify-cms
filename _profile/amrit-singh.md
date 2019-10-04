@@ -17,5 +17,13 @@ galleries:
     title: Audrey Napoleon - Voyeur
     date_location: San Diego, CA
     url: /all-access/2018/08/audrey-napoleon-voyeur
+  - hero: /assets/all-access/amrit-singh/hard-summer/cover.jpg
+    title: HARD Summer
+    date_location: Los Angeles, CA
+    url: /all-access/2018/08/hard-summer
+  - hero: /assets/all-access/amrit-singh/tycho-at-north-park/cover.jpg
+    title: Tycho
+    date_location: San Diego, CA
+    url: /all-access/2018/08/tycho-at-north-park
 ---
 

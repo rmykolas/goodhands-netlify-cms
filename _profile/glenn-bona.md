@@ -11,5 +11,10 @@ location: Houston, TX
 instagram: https://instagram.com/stokes.zip
 since: December, 2017
 headshot: /assets/all-access/glenn-bona/profile.jpg
+galleries:
+  - hero: /assets/all-access/glenn-bona/san-holo-shelter-tour/1.jpg
+    title: San Holo Shelter Tour
+    date_location: Bangkok
+    url: /all-access/2018/08/san-holo-shelter-tour
 ---
 

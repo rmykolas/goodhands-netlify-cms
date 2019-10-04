@@ -7,8 +7,6 @@ description: >-
 author_name: Amrit Singh
 gallery_title: Audrey Napoleon - Voyeur
 date_location: San Diego, CA
-instagram: https://instagram.com/akooms
-vimeo: https://vimeo.com/akooms
 hero: /assets/all-access/amrit-singh/audrey-napoleon-voyeur/cover.jpg
 date: 2018-08-01
 images:

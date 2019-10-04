@@ -11,5 +11,10 @@ location: Venice, CA
 instagram: https://instagram.com/ashedmo
 since: August, 2017
 headshot: /assets/all-access/ash-edmonds/profile.jpg
+galleries:
+  - hero: /assets/all-access/ash-edmonds/teen-cancer-fundraiser/8.jpg
+    title: Teen Cancer Fundraiser
+    date_location: Pacific Pallisades, California
+    url: /all-access/2018/08/teen-cancer-fundraiser
 ---
 
