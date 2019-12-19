@@ -3,12 +3,12 @@
 	{% if post.featured == 'Yes' %}
 		<a href="{{ post.url }}" class="good-reads-hero text-center text-md-left">
 			<img src="{{ post.featured_image }}" class="good-reads-hero__image" alt="{{ post.post_name }}">
-			<div class="container">
-				<div class="row">
+			<div class="container h-100">
+				<div class="row h-100 align-items-center">
 					<div class="col-8 col-md-4 offset-md-4">
 						<div class="padding-y-3">
-							<p class="text--uppercase text--16">{{ post.category }} — {{ post.read_time }} Min Read</p>
-							<h1 class="text--underline text--38 padding-bottom-1">{{ post.post_name }}</h1>
+							<p class="text--uppercase text--medium good-reads-hero__readtime">{{ post.category }} — {{ post.read_time }} Min Read</p>
+							<h1 class="text--underline good-reads-hero__postname padding-bottom-1">{{ post.post_name }}</h1>
 							<img src="{{ post.featured_image }}" class="img-fluid d-block d-md-none w-100  padding-bottom-1" alt="{{ post.post_name }}">
 							<p class="text--only-20 padding-bottom-1 text-left">{{ post.post_excerpt }}</p>
 							<div class="d-flex text-left">
@@ -30,16 +30,18 @@
 	<div class="container">
 		<div class="row">
 			{% for post in site.good-reads %}
-				<div class="col">
-					<a href="{{ post.url }}">
-						<figure>
-							<img src="{{ post.featured_image }}" alt="{{ post.post_name }}" class="img-absolute">
-						</figure>
-						<p class="text--uppercase text--14">{{ post.category }} — {{ post.read_time }} Min Read</p>
-						<h1 class="text--underline text--only-20">{{ post.post_name }}</h1>
-						<p class="text--only-20">{{ post.post_excerpt }}</p>
-					</a>
-				</div>
+				{% if post.featured == 'No' %}
+					<div class="col-8 col-sm-4">
+						<a href="{{ post.url }}">
+							<figure>
+								<img src="{{ post.featured_image }}" alt="{{ post.post_name }}" class="img-absolute">
+							</figure>
+							<p class="text--uppercase text--14">{{ post.category }} — {{ post.read_time }} Min Read</p>
+							<h1 class="text--underline text--only-20">{{ post.post_name }}</h1>
+							<p class="text--only-20">{{ post.post_excerpt }}</p>
+						</a>
+					</div>
+				{% endif %}
 			{% endfor %}
 		</div>
 		<!--<div class="row">

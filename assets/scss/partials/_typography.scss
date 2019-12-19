@@ -347,3 +347,13 @@ a {
         }
     }
 }
+
+.linebreak {
+    &--md-max {
+        display: none;
+        
+        @include media-breakpoint-down(md) {
+            display: block;
+        }
+    }
+}

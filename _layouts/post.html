@@ -1,9 +1,11 @@
 {% include header.html %}
-<section href="/" class="text-center padding-top-3">
+{% include social-sharing.html %}
+
+<section class="text-center padding-top-3">
 	<div class="container">
 		<div class="row">
 			<div class="col-8 col-sm-6 offset-sm-1">
-				<p class="text--uppercase text--16">{{ page.category }} — {{ page.read_time }} Min Read</p>
+				<p class="text--uppercase text--medium good-reads-hero__readtime">{{ page.category }} — {{ page.read_time }} Min Read</p>
 				<h1 class="text--underline text--38 padding-bottom-1">{{ page.post_name }}</h1>
 				<div class="d-flex align-items-center justify-content-center">
 					<img src="{{ page.author_image }}" width="48" height="48" class="mr-3">
@@ -12,10 +14,11 @@
 						<p class="text--14">{{ page.author_position }}</p>
 					</div>
 				</div>
-				<img src="{{ page.featured_image }}" class="img-fluid w-100 padding-top-1 padding-top-sm-2 padding-bottom-2">
+				<img src="{{ page.featured_image }}" class="img-fluid w-100 padding-top-1 padding-top-sm-2 padding-bottom-2 d-none d-sm-block">
 			</div>
 		</div>
 	</div>
+	<img src="{{ page.featured_image }}" class="img-fluid w-100 padding-top-1 padding-top-sm-2 padding-bottom-2 d-sm-none">
 </section>
 
 <section class="good-reads-post">
@@ -36,8 +39,8 @@
 			</div>
 			<div class="col-8 col-sm-6 offset-sm-1">
 				<div class="row">
-					<div class="col-8 col-md-4 padding-bottom-1 padding-bottom-md-0">
-						<a href="/">
+					<div class="col-8 col-sm-4 padding-bottom-1 padding-bottom-md-0">
+						<a href="/good-reads/2018-state-of-branding-report-review/">
 							<figure>
 								<img src="/assets/img/startups-services-branding-lg-1280px.jpg" alt="" class="img-absolute">
 							</figure>
@@ -46,8 +49,8 @@
 							<p class="text--only-20">Your brand is not a constant; it should evolve with your market and your audience.</p>
 						</a>
 					</div>
-					<div class="col-8 col-md-4 padding-bottom-1 padding-bottom-md-0">
-						<a href="/">
+					<div class="col-8 col-sm-4 padding-bottom-1 padding-bottom-md-0">
+						<a href="/good-reads/2018-state-of-branding-report-review/">
 							<figure>
 								<img src="/assets/img/startups-services-branding-lg-1280px.jpg" alt="" class="img-absolute">
 							</figure>
@@ -66,7 +69,7 @@
   <div class="container">
     <div class="row">
       <div class="col-8 col-md-5 padding-y-2 padding-y-md-3 text-center two-col__show">
-        <h1 class="text--24 text--uppercase mb-3 text-center">Your weekly dose of all things good</h1>
+        <h1 class="text--24 text--uppercase mb-3 text-center">Your weekly dose of <div class="linebreak--md-max"></div>all things good</h1>
     	<form class="newsletter-form validate-this" id="newsletter-form" name="All_Access_Application" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
     		<input class="d-none" name="bot-field" />
     		<div class="input-wrap">
